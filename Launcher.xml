@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DiscordActivity>true</DiscordActivity>
+  <ParallelDownload>true</ParallelDownload>
+  <DownloadThreads>4</DownloadThreads>
+  <Locale>en_US</Locale>
+  <ServerInfoList>
+    <ServerInfo>
+      <Url>https://play.osfrealms.com/</Url>
+      <Name>OS Free Realms</Name>
+      <Description>
+This is an open source Free Realms server, hopefully this one will be up for a long time.
+
+If you do not have an account and wish to play please visit 
+&lt;a href="https://www.osfrealms.com"&gt;www.osfrealms.com&lt;/a&gt;
+
+Moderators:
+Rick (lilpartyhats)
+Layla (pjnjealous)
+Cassie (cazzicat)
+Blaine (w101)
+
+If you experience disruptive behaviour in game, please let any one of these three know with screenshot evidence
+</Description>
+      <LoginServer>osfrealms.ddns.net:20042</LoginServer>
+      <LoginApiUrl>https://play.osfrealms.com/login</LoginApiUrl>
+      <SavePath>OS Free Realms</SavePath>
+      <Username></Username>
+      <RememberUsername>true</RememberUsername>
+      <Password></Password>
+      <RememberPassword>true</RememberPassword>
+    </ServerInfo>
+    <ServerInfo>
+      <Url>https://raisingkaines.com/client</Url>
+      <Name>Kaine's Online Server</Name>
+      <Description>Welcome!</Description>
+      <LoginServer>72.68.27.46:20042</LoginServer>
+      <LoginApiUrl>https://raisingkaines.com/login</LoginApiUrl>
+      <SavePath>C:\Users\Public\Documents\OSFRLauncher\Servers\KainesOnlineServer</SavePath>
+      <Username></Username>
+      <RememberUsername>true</RememberUsername>
+      <Password></Password>
+      <RememberPassword>true</RememberPassword>
+    </ServerInfo>
+  </ServerInfoList>
+</Settings>
