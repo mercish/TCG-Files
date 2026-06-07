@@ -1,0 +1,6 @@
+2026-05-17 11:55:38.3247|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-17 13:10:21.3625|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-17 21:16:45.6506|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=list-queues-auto-launch|handler=MatchmakingPacketHandler|player=225|worldTunnel=true|count=2|threshold=2|reason=client repeated queue list without owner launch packet
+2026-05-17 21:22:11.3246|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-17 21:24:53.0176|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=list-queues-auto-launch|handler=MatchmakingPacketHandler|player=225|worldTunnel=true|count=2|threshold=2|reason=client repeated queue list without owner launch packet
+2026-05-17 21:40:18.8838|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false

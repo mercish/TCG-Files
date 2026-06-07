@@ -1,0 +1,2 @@
+2026-05-18 16:40:42.7543|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: 62dc603adbd042d7b6b5851d2e7e3106 )
+2026-05-18 19:40:21.9416|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: 9a244ec22e514543977fed464631179b )

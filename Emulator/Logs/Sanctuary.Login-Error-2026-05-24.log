@@ -1,0 +1,2 @@
+2026-05-24 20:37:37.4146|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: 089077672d7e990190eef94583ffa9cf )
+2026-05-24 20:44:08.3759|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: Internationalization:Locale=en_US )

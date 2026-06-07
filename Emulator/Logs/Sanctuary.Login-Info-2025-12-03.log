@@ -1,0 +1,22 @@
+2025-12-03 22:24:17.0444|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-03 22:24:17.0444|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-03 22:24:17.0444|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-03 22:24:17.0444|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Games\PC\Free Realms\Emulator\
+2025-12-03 22:24:38.4109|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-03 22:24:38.4109|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-03 22:24:38.4109|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-03 22:24:38.4109|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Games\PC\Free Realms\Emulator\
+2025-12-03 22:25:39.0385|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-03 22:25:39.0385|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-03 22:25:39.0385|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-03 22:25:39.0435|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Games\PC\Free Realms\Emulator\
+2025-12-03 22:33:31.0116|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-12-03 22:33:31.0122|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-12-03 22:33:33.1582|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:63059 connected.
+2025-12-03 22:33:57.7481|INFO|Sanctuary.Login.LoginServer|127.0.0.1:65280 connected.
+2025-12-03 22:34:40.2910|INFO|Sanctuary.Login.LoginConnection|127.0.0.1:65280 disconnected. Application
+2025-12-03 23:02:46.1803|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-12-03 23:02:46.1859|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-12-03 23:02:48.1470|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:59636 connected.
+2025-12-03 23:03:15.0905|INFO|Sanctuary.Login.LoginServer|127.0.0.1:56442 connected.
+2025-12-03 23:03:20.5408|INFO|Sanctuary.Login.LoginConnection|127.0.0.1:56442 disconnected. Application

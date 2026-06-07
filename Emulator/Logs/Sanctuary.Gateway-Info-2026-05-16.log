@@ -1,0 +1,281 @@
+2026-05-16 13:23:28.6246|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 13:23:28.6553|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 13:23:28.6950|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 16:11:12.7388|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:57316 connected.
+2026-05-16 16:11:51.4161|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:57316 disconnected. Application
+2026-05-16 16:44:48.2112|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 16:44:48.2352|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 16:44:48.2585|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 16:45:49.2237|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:62069 connected.
+2026-05-16 16:52:29.9869|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:62069 disconnected. Application
+2026-05-16 16:52:53.2512|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 16:52:53.2744|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 16:52:53.2963|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 16:53:43.0415|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:57347 connected.
+2026-05-16 16:55:51.2168|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:57347 disconnected. Application
+2026-05-16 16:56:38.7122|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:55888 connected.
+2026-05-16 17:07:27.7439|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:07:27.7684|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:07:27.7799|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:17:15.2288|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:17:15.2524|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:17:15.2733|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:18:49.2563|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:18:49.2874|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:18:49.3129|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:27:06.3973|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:27:06.4288|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:27:06.4530|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:27:53.1328|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:59218 connected.
+2026-05-16 17:29:34.2806|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:29:34.3063|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:29:34.3173|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:31:49.4447|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:50980 connected.
+2026-05-16 17:32:21.2622|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:32:21.2871|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:32:21.3106|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:32:37.0012|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:55820 connected.
+2026-05-16 17:33:36.6350|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:33:36.6631|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:33:36.6747|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:34:31.9361|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 disconnected. UnreachableConnection
+2026-05-16 17:34:31.9361|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-05-16 17:34:31.9361|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2026-05-16 17:34:31.9361|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Free Realms\Free Realms\Emulator\
+2026-05-16 17:36:23.0006|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:36:23.0264|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:36:23.0498|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:37:33.0611|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:54637 connected.
+2026-05-16 17:39:36.0007|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:39:36.0273|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:39:36.0399|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:41:02.5425|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:57932 connected.
+2026-05-16 17:44:32.8173|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:44:32.8456|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:44:32.8581|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:46:10.2729|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:54870 connected.
+2026-05-16 17:51:50.8880|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:51:50.9158|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:51:50.9270|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:53:49.7410|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:49665 connected.
+2026-05-16 17:56:06.1080|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 17:56:06.1334|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 17:56:06.1461|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 17:58:17.8064|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:62781 connected.
+2026-05-16 17:59:07.9364|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:62781 disconnected. Timeout
+2026-05-16 18:03:16.5537|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:54133 connected.
+2026-05-16 18:08:01.3437|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:08:01.3711|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:08:01.3830|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:11:38.9161|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:11:38.9415|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:11:38.9669|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:12:09.7106|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:12:09.7427|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:12:09.7690|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:13:32.8097|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:13:32.8356|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:13:32.8610|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:13:59.8612|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:13:59.8871|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:13:59.9113|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:14:24.0734|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:64330 connected.
+2026-05-16 18:18:18.7026|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:18:18.7277|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:18:18.7390|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:19:04.6146|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:19:04.6424|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:19:04.6669|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:20:02.2999|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:20:02.3256|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:20:02.3477|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:20:16.9475|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:49645 connected.
+2026-05-16 18:36:16.2577|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:49645 disconnected. Application
+2026-05-16 18:36:36.4830|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:36:36.5114|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:36:36.5372|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:37:19.0699|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:62171 connected.
+2026-05-16 18:39:07.2717|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:39:07.2969|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:39:07.3217|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:39:25.0529|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:51745 connected.
+2026-05-16 18:52:22.6080|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:52:22.6384|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:52:22.6610|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:53:07.4553|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:54804 connected.
+2026-05-16 18:56:30.7164|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:54804 disconnected. Application
+2026-05-16 18:57:06.4586|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 18:57:06.4842|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 18:57:06.5076|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 18:57:37.0167|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:64768 connected.
+2026-05-16 19:01:14.6390|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 19:01:14.6649|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 19:01:14.6895|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 19:04:31.6454|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 19:04:31.6721|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 19:04:31.6985|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 19:05:44.1379|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 19:05:44.1616|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 19:05:44.1858|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 19:06:53.7612|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:64804 connected.
+2026-05-16 19:07:01.1816|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=36239a0f616440cfa26c2c9a0c671497
+2026-05-16 19:07:01.1816|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 19:07:04.8906|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 19:09:19.6660|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 19:09:19.6930|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 19:09:19.7170|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 19:09:58.4481|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 19:09:58.4730|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 19:09:58.4965|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 19:10:29.8703|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:61905 connected.
+2026-05-16 19:10:47.6366|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True
+2026-05-16 19:10:47.6366|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=1c7dcf7eb4974f70a03ebb8f6f3e1b25
+2026-05-16 19:10:47.6366|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 19:10:48.9045|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 19:11:23.4813|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 19:11:25.2693|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 19:14:41.9267|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 19:14:41.9532|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 19:14:41.9763|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 21:39:37.5364|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 21:39:37.5637|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 21:39:37.5864|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 21:40:21.6505|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:57797 connected.
+2026-05-16 21:40:28.9153|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a091c8c
+2026-05-16 21:40:28.9153|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a091c8c
+2026-05-16 21:40:28.9153|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:40:30.9160|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a091c8e
+2026-05-16 21:40:30.9160|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a091c8e
+2026-05-16 21:40:30.9160|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:42:09.3598|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a091cf1
+2026-05-16 21:42:09.3598|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a091cf1
+2026-05-16 21:42:09.3598|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:42:10.1746|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a091cf2
+2026-05-16 21:42:10.1746|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a091cf2
+2026-05-16 21:42:10.1746|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:51:02.9605|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:57797 disconnected. Application
+2026-05-16 21:51:18.9077|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 21:51:18.9322|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 21:51:18.9553|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 21:52:06.5324|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:58991 connected.
+2026-05-16 21:52:17.3577|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a091f51
+2026-05-16 21:52:17.3577|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a091f51
+2026-05-16 21:52:17.3577|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:52:21.5748|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a091f55
+2026-05-16 21:52:21.5748|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a091f55
+2026-05-16 21:52:21.5748|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:52:23.0289|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a091f57
+2026-05-16 21:52:23.0289|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a091f57
+2026-05-16 21:52:23.0289|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:52:31.1137|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a091f5f
+2026-05-16 21:52:31.1137|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a091f5f
+2026-05-16 21:52:31.1137|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:55:28.9325|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a092010
+2026-05-16 21:55:28.9325|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a092010
+2026-05-16 21:55:28.9325|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 21:55:42.7536|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a09201e
+2026-05-16 21:55:42.7536|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a09201e
+2026-05-16 21:55:42.7536|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 22:05:34.0316|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a09226e
+2026-05-16 22:05:34.0316|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a09226e
+2026-05-16 22:05:34.0316|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 22:05:37.8512|INFO|ClientActivityLaunchPacketHandler|CompleteTcgLaunch. Player=225, WorldTunnel=True, Ticket=225_6a092271
+2026-05-16 22:05:37.8512|INFO|MatchmakingPacketHandler|TCG matchmaking bootstrap. Player=225, WorldTunnel=True, Ticket=225_6a092271
+2026-05-16 22:05:37.8512|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 22:25:42.9861|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:25:43.1336|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:25:43.3813|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:28:01.1967|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:28:01.2243|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:28:01.2463|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:29:06.8282|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:60980 connected.
+2026-05-16 22:29:27.4998|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 22:29:31.0320|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 22:32:53.3418|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True
+2026-05-16 22:33:07.1793|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:33:07.2285|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:33:07.2675|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:34:06.9450|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:34:06.9738|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:34:06.9991|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:35:12.1156|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:65426 connected.
+2026-05-16 22:35:25.1978|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000001000000290000000000000000000000
+2026-05-16 22:35:28.0698|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000001000000290000000000000000000000
+2026-05-16 22:35:49.8273|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000001000000290000000000000000000000
+2026-05-16 22:37:15.9867|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:65426 disconnected. Application
+2026-05-16 22:38:08.7790|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:38:08.8073|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:38:08.8189|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:42:38.0892|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:42:38.1134|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:42:38.1324|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:47:45.0684|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:47:45.0947|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:47:45.1201|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:48:32.2756|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:56861 connected.
+2026-05-16 22:48:41.0233|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 22:48:41.0233|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 22:48:42.5990|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 22:48:42.5990|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 22:50:05.4366|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:50:05.4649|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:50:05.4775|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:53:35.7962|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 disconnected. Timeout
+2026-05-16 22:53:35.7962|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-05-16 22:53:35.7962|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2026-05-16 22:53:35.7962|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Free Realms\Free Realms\Emulator\
+2026-05-16 22:57:47.0330|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:57:47.0575|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:58:14.7232|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:58:14.7480|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:58:14.7683|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:59:26.7350|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 22:59:26.7610|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 22:59:26.7906|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 22:59:43.9385|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:59651 connected.
+2026-05-16 22:59:51.4807|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 22:59:51.4820|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D00020001000000290000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:00:01.6078|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:00:01.6078|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D00020001000000290000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:00:18.0484|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:00:18.0484|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D00020001000000290000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:00:19.1929|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:00:19.1929|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D00020001000000290000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:00:38.6555|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:00:38.6555|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D00020001000000290000005E9A0000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:07:58.2165|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 23:07:58.2413|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 23:07:58.2619|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 23:09:53.4530|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 23:09:53.4776|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 23:09:53.4996|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 23:10:19.3709|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:59789 connected.
+2026-05-16 23:10:26.3400|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:10:26.3411|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:10:29.7516|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:10:29.7516|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:11:51.6333|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:11:51.6333|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:16:35.4853|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:16:35.4853|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:17:14.8345|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:59789 disconnected. Application
+2026-05-16 23:17:29.3717|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 23:17:29.4045|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 23:17:29.4303|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 23:17:58.5922|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-16 23:17:58.6168|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-16 23:17:58.6379|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-16 23:18:33.2679|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:62976 connected.
+2026-05-16 23:18:41.2052|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:18:41.2052|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:18:42.9502|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:18:42.9506|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:25:09.4743|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:62976 disconnected. Application
+2026-05-16 23:33:26.3480|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:61502 connected.
+2026-05-16 23:33:37.6612|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:33:37.6612|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:33:42.8598|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:33:42.8598|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:34:18.1233|INFO|MatchmakingPacketHandler|MatchmakingRequest. Type=1, Player=225, WorldTunnel=True, Remaining=E100000000000000
+2026-05-16 23:34:18.1233|INFO|MatchmakingPacketHandler|ListQueuesResponse. Player=225, WorldTunnel=True, Payload=8D000200E100000000000000010000002900000001000000CEAD879F000000000000000000000000000000000000000000000000000000000100000001000000010000000100000007000000290000000000000000000000
+2026-05-16 23:40:13.4626|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:61502 disconnected. Application

@@ -1,0 +1,5 @@
+2025-11-29 08:21:06.5940|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-29 08:21:07.2893|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-11-29 08:21:07.3012|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-11-29 08:21:07.3190|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-11-29 08:21:07.4499|TRACE|GatewayLoginReplyHandler|Received GatewayLoginReply packet. ( Sanctuary.Packet.GatewayLoginReply )

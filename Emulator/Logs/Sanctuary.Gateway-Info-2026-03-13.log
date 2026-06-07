@@ -1,0 +1,5 @@
+2026-03-13 18:48:43.2891|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-03-13 18:48:43.3274|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-03-13 18:48:43.4165|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-03-13 18:49:26.0459|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:61542 connected.
+2026-03-13 19:02:23.8072|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:61542 disconnected. Application

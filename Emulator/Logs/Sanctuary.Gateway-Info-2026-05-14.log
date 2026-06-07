@@ -1,0 +1,171 @@
+2026-05-14 05:28:18.6423|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 05:28:18.6656|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 05:28:19.8215|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 10:06:53.1517|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 10:06:53.1803|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 10:06:53.2410|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 12:45:43.9105|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:59940 connected.
+2026-05-14 12:46:11.9023|INFO|Chat|WorldSay|From: "Elijah Charmingcoil" (145), Msg: "!setspeed 50"
+2026-05-14 12:53:50.4422|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:59940 disconnected. Application
+2026-05-14 12:58:23.6609|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:63084 connected.
+2026-05-14 12:58:43.5991|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:63084 disconnected. Application
+2026-05-14 13:26:11.3157|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:54975 connected.
+2026-05-14 13:33:37.9508|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:54975 disconnected. Application
+2026-05-14 14:35:20.4964|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:64305 connected.
+2026-05-14 14:38:50.5546|INFO|Chat|WorldSay|From: "Kaine" (161), Msg: "!setspeed 50"
+2026-05-14 14:56:29.9026|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:64305 disconnected. Application
+2026-05-14 14:58:01.2866|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:59502 connected.
+2026-05-14 15:00:38.3283|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:59502 disconnected. Application
+2026-05-14 15:25:05.2768|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 15:25:05.2996|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 15:25:05.3206|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 15:33:08.3604|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 15:33:08.3919|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 15:33:08.4159|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 15:39:56.2656|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 15:39:56.2894|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 15:39:56.3087|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 15:41:44.4355|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2026-05-14 15:41:44.4355|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-05-14 15:41:44.4355|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2026-05-14 15:41:44.4355|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Free Realms\Free Realms\Emulator\
+2026-05-14 15:42:14.1835|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 15:42:14.2075|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 15:42:14.2280|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 16:01:52.3778|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:60795 connected.
+2026-05-14 16:17:54.7138|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:60795 disconnected. Application
+2026-05-14 16:46:35.3025|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:61307 connected.
+2026-05-14 17:09:20.2349|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:61307 disconnected. Application
+2026-05-14 17:15:40.2720|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 17:15:40.2951|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 17:15:40.3154|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 17:19:20.1134|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:53750 connected.
+2026-05-14 17:20:42.0560|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:53750 disconnected. Application
+2026-05-14 17:30:22.4981|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 17:30:22.5273|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 17:30:22.5529|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 17:32:48.4625|INFO|Sanctuary.Gateway.GatewayServer|72.68.27.46:64171 connected.
+2026-05-14 17:33:05.2327|INFO|Sanctuary.Gateway.GatewayServer|188.119.36.220:30268 connected.
+2026-05-14 17:34:47.5121|INFO|Sanctuary.Gateway.GatewayConnection|188.119.36.220:30268 disconnected. Timeout
+2026-05-14 17:41:08.4910|INFO|Sanctuary.Gateway.GatewayServer|188.119.36.220:30630 connected.
+2026-05-14 17:41:28.4048|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "interesting"
+2026-05-14 17:41:37.0134|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "!playerlist"
+2026-05-14 17:41:45.2498|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "hmm"
+2026-05-14 17:43:41.2122|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "HELLOOOO"
+2026-05-14 17:43:46.8821|INFO|Sanctuary.Gateway.GatewayServer|63.141.7.4:54792 connected.
+2026-05-14 17:44:25.8825|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "hello"
+2026-05-14 17:44:44.9639|INFO|Chat|WorldSay|From: "ueruz" (193), Msg: "hey!"
+2026-05-14 17:44:52.8987|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "hello"
+2026-05-14 17:45:23.0811|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "xd"
+2026-05-14 17:46:41.3226|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "hmm"
+2026-05-14 17:46:53.7321|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "im getting errors"
+2026-05-14 17:46:58.6975|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "im getting errors"
+2026-05-14 17:47:00.1211|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "whats features on server"
+2026-05-14 17:47:25.2016|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "whats errors?"
+2026-05-14 17:47:49.1458|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "malformed packets"
+2026-05-14 17:47:57.4685|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "probably from that launcher i made you download"
+2026-05-14 17:48:15.4901|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "I do need more features for the server if you have any files"
+2026-05-14 17:48:19.0122|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "still malformed?"
+2026-05-14 17:48:42.5145|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "?"
+2026-05-14 17:48:45.0279|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "probably just on that end"
+2026-05-14 17:49:04.6815|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "oks"
+2026-05-14 17:49:28.5673|INFO|Chat|WorldSay|From: "ueruz" (193), Msg: "just realized the teleporter is missing"
+2026-05-14 17:49:34.9129|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "did you seen underground ? xd"
+2026-05-14 17:49:57.7476|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "let me see the underground"
+2026-05-14 17:50:12.7285|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "im lazy edit for packets"
+2026-05-14 17:50:13.5719|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "wait"
+2026-05-14 17:51:08.2286|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "!playerlist"
+2026-05-14 17:51:13.5168|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "forgot that doesnt work here"
+2026-05-14 17:51:19.4311|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "i hear your malformed packets"
+2026-05-14 17:51:20.9749|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "xd"
+2026-05-14 17:51:26.5688|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "see your console"
+2026-05-14 17:51:27.7195|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "shhhh"
+2026-05-14 17:51:29.9726|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "what i did"
+2026-05-14 17:52:12.0875|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "I saw two new errors"
+2026-05-14 17:52:15.5244|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "what saying"
+2026-05-14 17:52:25.6350|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "CrcReject"
+2026-05-14 17:52:30.3706|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "ah its"
+2026-05-14 17:52:31.1449|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: ":D"
+2026-05-14 17:52:37.2005|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "Guid 24"
+2026-05-14 17:52:44.6096|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "241"
+2026-05-14 17:54:01.2025|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "now?"
+2026-05-14 17:54:41.0018|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "lots of digits"
+2026-05-14 17:55:04.0532|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "now?"
+2026-05-14 17:55:04.5931|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "xd"
+2026-05-14 17:55:27.3736|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "just more digits"
+2026-05-14 17:55:36.0238|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "lets go to the underworld"
+2026-05-14 17:55:44.5635|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "!!"
+2026-05-14 17:55:44.8822|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "uuh"
+2026-05-14 17:55:48.3236|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "wait"
+2026-05-14 17:56:17.8549|INFO|Sanctuary.Gateway.GatewayServer|23.122.244.199:55142 connected.
+2026-05-14 17:56:46.0375|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "i need rejoin"
+2026-05-14 17:56:52.1820|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "kk"
+2026-05-14 17:56:58.6811|INFO|Sanctuary.Gateway.GatewayConnection|188.119.36.220:30630 disconnected. Application
+2026-05-14 17:57:20.2850|INFO|Chat|WorldShout|From: "Rob Ross" (209), Msg: "Hello there"
+2026-05-14 17:57:27.7387|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "hello"
+2026-05-14 17:57:39.9698|INFO|Chat|WorldShout|From: "Kaine" (225), Msg: "WELCOME TO AMERICAN HOSTED SERVERS"
+2026-05-14 17:57:48.1331|INFO|Chat|WorldShout|From: "Rob Ross" (209), Msg: "Ty"
+2026-05-14 17:58:20.1701|INFO|Sanctuary.Gateway.GatewayServer|188.119.36.220:29947 connected.
+2026-05-14 17:58:46.2044|INFO|Chat|WorldSay|From: "Rob Ross" (209), Msg: "Gj for removing milk gloves"
+2026-05-14 17:59:08.6059|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "that was unintentional"
+2026-05-14 17:59:11.2527|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "but happy to help"
+2026-05-14 17:59:16.8259|INFO|Chat|WorldSay|From: "Rob Ross" (209), Msg: "No worries"
+2026-05-14 17:59:31.0718|INFO|Chat|WorldSay|From: "Rob Ross" (209), Msg: "We'll let Cale find out the hard way"
+2026-05-14 17:59:40.3656|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "all im saying is im moving so smooth rn"
+2026-05-14 17:59:45.6843|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "come"
+2026-05-14 17:59:56.1646|INFO|Chat|WorldSay|From: "Rob Ross" (209), Msg: "Nice"
+2026-05-14 18:00:02.7294|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "here its is undergorund"
+2026-05-14 18:00:13.1444|INFO|Chat|WorldShout|From: "Rob Ross" (209), Msg: "We're in Cobblestone"
+2026-05-14 18:00:26.5071|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "is that the tunnel"
+2026-05-14 18:00:30.0944|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "when you see console? xd"
+2026-05-14 18:00:39.8651|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "i throwed magic packets"
+2026-05-14 18:01:28.4589|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "uh"
+2026-05-14 18:01:32.2376|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "what i did?"
+2026-05-14 18:01:35.5328|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "guess it"
+2026-05-14 18:01:43.7428|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "i have no clue"
+2026-05-14 18:01:47.8545|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: ":7"
+2026-05-14 18:01:56.2172|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "i have developments tools bro"
+2026-05-14 18:02:23.0289|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "oh"
+2026-05-14 18:02:25.1978|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "neat"
+2026-05-14 18:02:28.8333|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "where you?"
+2026-05-14 18:03:54.8558|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "xd"
+2026-05-14 18:04:00.5474|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "are you lost"
+2026-05-14 18:04:05.4968|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "are you lost*"
+2026-05-14 18:04:06.1056|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "what"
+2026-05-14 18:04:34.0635|INFO|Sanctuary.Gateway.GatewayConnection|23.122.244.199:55142 disconnected. Application
+2026-05-14 18:04:35.3659|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "you see me?"
+2026-05-14 18:04:37.2264|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "yes"
+2026-05-14 18:04:45.0580|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "great"
+2026-05-14 18:05:48.2425|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "youre first seen?"
+2026-05-14 18:05:52.6392|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "this area?"
+2026-05-14 18:06:10.4606|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "yes"
+2026-05-14 18:06:22.6755|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "really?"
+2026-05-14 18:06:23.1435|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "xd"
+2026-05-14 18:06:54.8671|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "There are still a few dangerous packets I haven’t tested… but I’m not touching those."
+2026-05-14 18:07:11.6546|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "come"
+2026-05-14 18:08:44.3414|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "im still underground right?"
+2026-05-14 18:08:48.1297|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "no"
+2026-05-14 18:08:53.9969|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "top?"
+2026-05-14 18:09:20.7926|INFO|Chat|WorldSay|From: "Kaine" (225), Msg: "to the tunnel"
+2026-05-14 18:11:16.5373|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "imagine when original free realms server"
+2026-05-14 18:12:28.4928|INFO|Chat|WorldSay|From: "Darrin Cleverfortress" (241), Msg: "i see whale in HD"
+2026-05-14 18:13:56.4605|INFO|Sanctuary.Gateway.GatewayConnection|72.68.27.46:64171 disconnected. Application
+2026-05-14 18:14:48.6163|INFO|Chat|WorldShout|From: "Darrin Cleverfortress" (241), Msg: "i need sleep"
+2026-05-14 18:15:04.3879|INFO|Sanctuary.Gateway.GatewayConnection|188.119.36.220:29947 disconnected. Application
+2026-05-14 18:15:19.3488|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-14 18:15:19.3818|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-14 18:15:19.4089|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-14 18:16:26.3220|INFO|Sanctuary.Gateway.GatewayServer|63.141.7.4:56137 connected.
+2026-05-14 18:28:49.8945|INFO|Sanctuary.Gateway.GatewayConnection|63.141.7.4:56137 disconnected. Application
+2026-05-14 18:31:15.3798|INFO|Sanctuary.Gateway.GatewayServer|63.141.7.4:64584 connected.
+2026-05-14 18:32:30.2764|INFO|Sanctuary.Gateway.GatewayConnection|63.141.7.4:64584 disconnected. Application
+2026-05-14 19:01:59.0680|INFO|Sanctuary.Gateway.GatewayServer|63.141.7.4:54942 connected.
+2026-05-14 19:03:09.8705|INFO|Sanctuary.Gateway.GatewayConnection|63.141.7.4:54942 disconnected. Timeout
+2026-05-14 19:30:20.4266|INFO|Sanctuary.Gateway.GatewayServer|63.141.7.4:64286 connected.
+2026-05-14 19:33:04.1309|INFO|Sanctuary.Gateway.GatewayConnection|63.141.7.4:64286 disconnected. Application
+2026-05-14 22:36:33.7612|INFO|Sanctuary.Gateway.GatewayServer|63.141.7.4:51899 connected.
+2026-05-14 22:43:36.5266|INFO|Sanctuary.Gateway.GatewayConnection|63.141.7.4:51899 disconnected. Timeout
+2026-05-14 22:43:54.4787|INFO|Sanctuary.Gateway.GatewayServer|63.141.7.4:50290 connected.
+2026-05-14 22:44:45.7140|INFO|Sanctuary.Gateway.GatewayConnection|63.141.7.4:50290 disconnected. Timeout
+2026-05-14 22:45:01.2773|INFO|Sanctuary.Gateway.GatewayServer|63.141.7.4:59142 connected.
+2026-05-14 22:47:26.0730|INFO|Sanctuary.Gateway.GatewayConnection|63.141.7.4:59142 disconnected. Application

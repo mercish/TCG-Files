@@ -1,0 +1,79 @@
+2026-01-18 12:57:49.7969|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (30,009ms) [Parameters=[@p0='?' (DbType = UInt64), @p1='?' (DbType = Int32), @p2='?' (DbType = UInt64), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "ProfileItems" ("ItemsCharacterId", "ItemsId", "ProfilesCharacterId", "ProfilesId")
+VALUES (@p0, @p1, @p2, @p3);
+2026-01-18 12:57:49.8003|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'Sanctuary.Database.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2026-01-18 12:57:49.8003|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start|Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Sanctuary.Gateway.Handlers.InventoryPacketEquipByGuidHandler.HandlePacket(GatewayConnection connection, ReadOnlySpan`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Gateway\Handlers\BaseInventoryPacket\InventoryPacketEquipByGuidHandler.cs:line 115
+   at Sanctuary.Gateway.Handlers.BaseInventoryPacketHandler.HandlePacket(GatewayConnection connection, PacketReader reader) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Gateway\Handlers\BaseInventoryPacketHandler.cs:line 34
+   at Sanctuary.Gateway.Handlers.PacketTunneledClientPacketHandler.HandlePacket(GatewayConnection connection, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Gateway\Handlers\PacketTunneledClientPacketHandler.cs:line 48
+   at Sanctuary.UdpLibrary.UdpManager`1.CallbackRoutePacket(UdpConnection con, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 767
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 717
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 1162
+   at Sanctuary.UdpLibrary.Internal.UdpReliableChannel.ReliablePacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\Internal\UdpReliableChannel.cs:line 155
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 1119
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessRawPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 677
+   at Sanctuary.UdpLibrary.UdpManager`1.ProcessRawPacket(SocketAddress socketAddress, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 630
+   at Sanctuary.UdpLibrary.UdpManager`1.GiveTime(Int32 maxPollingTime, Boolean giveConnectionsTime) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 341
+   at Sanctuary.Gateway.GatewayService.ExecuteAsync(CancellationToken cancellationToken) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Gateway\GatewayService.cs:line 129
+   at Microsoft.Extensions.Hosting.BackgroundService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-01-18 13:01:26.7705|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-01-18 13:29:43.6585|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-01-18 13:41:58.1328|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-01-18 13:48:48.8813|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-01-18 13:54:06.0559|WARN|InventoryPacketEquippedRemoveHandler|Invalid database item.
+2026-01-18 13:57:08.6618|WARN|InventoryPacketEquippedRemoveHandler|User tried to unequip empty slot. 5
+2026-01-18 13:58:16.2358|WARN|InventoryPacketEquipByGuidHandler|Failed to save to database.
+2026-01-18 13:58:19.5296|WARN|InventoryPacketEquippedRemoveHandler|Invalid database item.
+2026-01-18 14:12:27.3148|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database

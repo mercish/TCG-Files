@@ -1,0 +1,22 @@
+2025-12-03 22:24:15.6608|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-03 22:24:16.6716|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-03 22:24:16.6716|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-03 22:24:16.6716|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Games\PC\Free Realms\Emulator\
+2025-12-03 22:24:40.0674|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-03 22:24:40.0674|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-03 22:24:40.0674|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-03 22:24:40.0674|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Games\PC\Free Realms\Emulator\
+2025-12-03 22:25:40.9996|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-03 22:25:40.9996|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-03 22:25:40.9996|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-03 22:25:40.9996|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Games\PC\Free Realms\Emulator\
+2025-12-03 22:33:33.1335|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-03 22:33:33.1467|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-03 22:33:33.1636|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-03 22:34:40.3460|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:56987 connected.
+2025-12-03 22:55:35.5724|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:56987 disconnected. Application
+2025-12-03 23:02:48.1132|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-03 23:02:48.1343|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-03 23:02:48.1514|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-03 23:03:20.5512|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:51216 connected.
+2025-12-03 23:08:36.6107|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:51216 disconnected. Application

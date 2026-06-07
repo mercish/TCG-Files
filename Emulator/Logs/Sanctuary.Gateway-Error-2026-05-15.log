@@ -1,0 +1,9 @@
+2026-05-15 00:29:23.7567|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-15 09:49:03.3981|WARN|InventoryPacketEquipByGuidHandler|Failed to save to database.
+2026-05-15 09:49:07.8709|WARN|InventoryPacketEquippedRemoveHandler|Invalid database item.
+2026-05-15 09:49:48.9506|WARN|InventoryPacketEquipByGuidHandler|Failed to save to database.
+2026-05-15 09:49:53.0822|WARN|InventoryPacketEquipByGuidHandler|Failed to save to database.
+2026-05-15 09:50:01.5655|WARN|InventoryPacketEquipByGuidHandler|Failed to save to database.
+2026-05-15 09:50:31.0582|WARN|InventoryPacketEquipByGuidHandler|Failed to save to database.
+2026-05-15 09:51:01.3866|WARN|InventoryPacketEquipByGuidHandler|Failed to save to database.
+2026-05-15 20:56:13.0522|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database

@@ -1,0 +1,61 @@
+2025-12-03 22:24:15.6173|ERROR|Sanctuary.Game.ResourceManager|Failed to parse file "Resources\CoinStoreItems.json".|System.Text.Json.JsonException: 'N' is an invalid start of a value. Path: $[0].TintGroupId | LineNumber: 4 | BytePositionInLine: 19.
+ ---> System.Text.Json.JsonReaderException: 'N' is an invalid start of a value. LineNumber: 4 | BytePositionInLine: 19.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonHelpers.TryAdvanceWithReadAhead(Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Stream utf8Json)
+   at Sanctuary.Game.Resources.CoinStoreItemCollection.Load(String filePath) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Game\Resources\CoinStoreItemCollection.cs:line 39
+2025-12-03 22:24:15.6608|FATAL|Sanctuary.Gateway.GatewayService|Cannot start GatewayServer, failed to load resources.
+2025-12-03 22:24:40.0489|ERROR|Sanctuary.Game.ResourceManager|Failed to parse file "Resources\CoinStoreItems.json".|System.Text.Json.JsonException: 'N' is an invalid start of a value. Path: $[0].TintGroupId | LineNumber: 4 | BytePositionInLine: 19.
+ ---> System.Text.Json.JsonReaderException: 'N' is an invalid start of a value. LineNumber: 4 | BytePositionInLine: 19.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonHelpers.TryAdvanceWithReadAhead(Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Stream utf8Json)
+   at Sanctuary.Game.Resources.CoinStoreItemCollection.Load(String filePath) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Game\Resources\CoinStoreItemCollection.cs:line 39
+2025-12-03 22:24:40.0674|FATAL|Sanctuary.Gateway.GatewayService|Cannot start GatewayServer, failed to load resources.
+2025-12-03 22:25:40.9832|ERROR|Sanctuary.Game.ResourceManager|Failed to parse file "Resources\CoinStoreItems.json".|System.Text.Json.JsonException: 'N' is an invalid start of a value. Path: $[0].TintGroupId | LineNumber: 4 | BytePositionInLine: 19.
+ ---> System.Text.Json.JsonReaderException: 'N' is an invalid start of a value. LineNumber: 4 | BytePositionInLine: 19.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonHelpers.TryAdvanceWithReadAhead(Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Stream utf8Json)
+   at Sanctuary.Game.Resources.CoinStoreItemCollection.Load(String filePath) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Game\Resources\CoinStoreItemCollection.cs:line 39
+2025-12-03 22:25:40.9996|FATAL|Sanctuary.Gateway.GatewayService|Cannot start GatewayServer, failed to load resources.
+2025-12-03 22:33:33.0194|WARN|Sanctuary.Game.ResourceManager|Failed to add entry. 76751 "Resources\CoinStoreItems.json"
+2025-12-03 22:33:33.0194|WARN|Sanctuary.Game.ResourceManager|Failed to add entry. 76751 "Resources\CoinStoreItems.json"
+2025-12-03 22:33:33.0392|WARN|Sanctuary.Game.ResourceManager|Failed to add entry. 76752 "Resources\CoinStoreItems.json"
+2025-12-03 22:33:33.0392|WARN|Sanctuary.Game.ResourceManager|Failed to add entry. 76752 "Resources\CoinStoreItems.json"

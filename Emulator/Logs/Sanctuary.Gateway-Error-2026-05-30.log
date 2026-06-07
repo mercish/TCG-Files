@@ -1,0 +1,1 @@
+2026-05-30 02:51:40.1450|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false

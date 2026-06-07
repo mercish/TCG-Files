@@ -1,0 +1,106 @@
+2026-06-02 00:02:17.7809|INFO|Sanctuary.Login.LoginServer|72.68.27.46:63736 connected.
+2026-06-02 00:03:18.5648|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:63736 disconnected. Application
+2026-06-02 00:04:42.1787|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-06-02 00:04:42.1858|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-06-02 00:04:42.4775|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:56350 connected.
+2026-06-02 00:05:04.9775|INFO|Sanctuary.Login.LoginServer|72.68.27.46:49370 connected.
+2026-06-02 00:05:20.3378|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:49370 disconnected. Application
+2026-06-02 00:30:03.2527|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:56350 disconnected. Timeout
+2026-06-02 00:33:14.8035|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:59837 connected.
+2026-06-02 00:41:05.6095|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:59837 disconnected. Timeout
+2026-06-02 00:41:34.4292|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:55209 connected.
+2026-06-02 00:47:49.8328|INFO|Sanctuary.Login.LoginServer|72.68.27.46:59641 connected.
+2026-06-02 00:48:21.5821|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:59641 disconnected. Application
+2026-06-02 01:16:14.6746|INFO|Sanctuary.Login.LoginServer|72.68.27.46:49864 connected.
+2026-06-02 01:17:16.3856|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:49864 disconnected. Application
+2026-06-02 01:29:46.7820|INFO|Sanctuary.Login.LoginServer|72.68.27.46:55482 connected.
+2026-06-02 01:30:17.7475|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:55482 disconnected. Application
+2026-06-02 01:31:02.3534|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-06-02 01:31:02.3593|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-06-02 01:31:03.2437|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:51815 connected.
+2026-06-02 01:31:32.2847|INFO|Sanctuary.Login.LoginServer|72.68.27.46:61170 connected.
+2026-06-02 01:31:54.7288|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:61170 disconnected. Application
+2026-06-02 02:02:00.8667|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:60129 connected.
+2026-06-02 02:03:17.7343|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:51815 disconnected. Timeout
+2026-06-02 02:10:14.2722|INFO|Sanctuary.Login.LoginServer|72.68.27.46:65096 connected.
+2026-06-02 02:10:43.3684|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:65096 disconnected. Application
+2026-06-02 03:36:07.7072|INFO|Sanctuary.Login.LoginServer|72.68.27.46:53120 connected.
+2026-06-02 03:36:37.2796|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:53120 disconnected. Application
+2026-06-02 03:39:04.7494|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-06-02 03:39:04.7494|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-06-02 03:39:05.1753|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:52572 connected.
+2026-06-02 03:39:44.9669|INFO|Sanctuary.Login.LoginServer|72.68.27.46:52147 connected.
+2026-06-02 03:39:54.7656|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:52147 disconnected. Application
+2026-06-02 13:23:23.4829|INFO|Sanctuary.Login.LoginServer|72.68.27.46:56561 connected.
+2026-06-02 13:23:33.1795|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:56561 disconnected. Application
+2026-06-02 13:55:32.2355|INFO|Sanctuary.Login.LoginServer|72.68.27.46:60734 connected.
+2026-06-02 13:56:04.3418|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:60734 disconnected. Application
+2026-06-02 14:03:30.8080|INFO|Sanctuary.Login.LoginServer|72.68.27.46:56794 connected.
+2026-06-02 14:04:02.5011|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:56794 disconnected. Application
+2026-06-02 14:29:25.8649|INFO|Sanctuary.Login.LoginServer|72.68.27.46:65499 connected.
+2026-06-02 14:29:52.3077|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:65499 disconnected. Application
+2026-06-02 15:01:53.4528|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:63776 connected.
+2026-06-02 15:03:17.2084|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:52572 disconnected. Timeout
+2026-06-02 15:10:13.2688|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:51065 connected.
+2026-06-02 15:11:34.4206|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:63776 disconnected. Timeout
+2026-06-02 15:12:59.9282|INFO|Sanctuary.Login.LoginServer|72.68.27.46:59823 connected.
+2026-06-02 15:13:33.6843|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:59823 disconnected. Application
+2026-06-02 15:15:03.8150|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-06-02 15:15:03.8150|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-06-02 15:15:04.3165|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:60469 connected.
+2026-06-02 15:15:25.5851|INFO|Sanctuary.Login.LoginServer|72.68.27.46:53644 connected.
+2026-06-02 15:15:50.6358|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:53644 disconnected. Application
+2026-06-02 15:33:14.6465|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:59176 connected.
+2026-06-02 15:35:45.2278|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:64847 connected.
+2026-06-02 15:38:11.8994|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:52656 connected.
+2026-06-02 15:38:35.2183|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:59176 disconnected. Timeout
+2026-06-02 15:38:35.5602|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:64847 disconnected. Timeout
+2026-06-02 15:38:35.7009|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:60469 disconnected. Timeout
+2026-06-02 15:40:54.6854|INFO|Sanctuary.Login.LoginServer|72.68.27.46:53121 connected.
+2026-06-02 15:41:22.2296|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:53121 disconnected. Application
+2026-06-02 15:51:12.2304|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:62479 connected.
+2026-06-02 15:52:36.6236|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:52656 disconnected. Timeout
+2026-06-02 15:53:54.8192|INFO|Sanctuary.Login.LoginServer|72.68.27.46:53465 connected.
+2026-06-02 15:54:26.7524|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:53465 disconnected. Application
+2026-06-02 16:32:34.0696|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:60937 connected.
+2026-06-02 16:33:58.5611|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:62479 disconnected. Timeout
+2026-06-02 16:37:26.4557|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:55857 connected.
+2026-06-02 16:38:44.7175|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:60937 disconnected. Timeout
+2026-06-02 16:41:47.2969|INFO|Sanctuary.Login.LoginServer|72.68.27.46:53449 connected.
+2026-06-02 16:42:23.1847|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:53449 disconnected. Application
+2026-06-02 17:05:31.2109|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:56866 connected.
+2026-06-02 17:06:56.3621|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:55857 disconnected. Timeout
+2026-06-02 17:45:10.9714|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:51727 connected.
+2026-06-02 17:46:35.1242|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:56866 disconnected. Timeout
+2026-06-02 17:50:42.3620|INFO|Sanctuary.Login.LoginServer|72.68.27.46:49857 connected.
+2026-06-02 17:51:21.3707|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:49857 disconnected. Application
+2026-06-02 18:05:41.7657|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:58356 connected.
+2026-06-02 18:07:04.7797|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:51727 disconnected. Timeout
+2026-06-02 18:07:39.6191|INFO|Sanctuary.Login.LoginServer|72.68.27.46:57364 connected.
+2026-06-02 18:08:16.0866|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:57364 disconnected. Application
+2026-06-02 18:33:31.0478|INFO|Sanctuary.Login.LoginServer|72.68.27.46:53500 connected.
+2026-06-02 18:34:06.6942|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:53500 disconnected. Application
+2026-06-02 19:07:22.3122|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:52659 connected.
+2026-06-02 19:08:44.6415|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:58356 disconnected. Timeout
+2026-06-02 19:27:00.5826|INFO|Sanctuary.Login.LoginServer|72.68.27.46:63088 connected.
+2026-06-02 19:27:52.4546|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:63088 disconnected. Application
+2026-06-02 20:30:19.0171|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:49464 connected.
+2026-06-02 20:31:41.3268|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:52659 disconnected. Timeout
+2026-06-02 20:39:46.7260|INFO|Sanctuary.Login.LoginServer|72.68.27.46:64801 connected.
+2026-06-02 20:39:57.3311|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:64801 disconnected. Application
+2026-06-02 21:09:25.4741|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:64027 connected.
+2026-06-02 21:10:45.8263|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:49464 disconnected. Timeout
+2026-06-02 21:13:46.0782|INFO|Sanctuary.Login.LoginServer|72.68.27.46:56985 connected.
+2026-06-02 21:14:19.1486|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:56985 disconnected. Application
+2026-06-02 22:09:38.0697|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:50061 connected.
+2026-06-02 22:10:59.7496|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:64027 disconnected. Timeout
+2026-06-02 22:16:15.0935|INFO|Sanctuary.Login.LoginServer|72.68.27.46:53114 connected.
+2026-06-02 22:16:48.6355|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:53114 disconnected. Application
+2026-06-02 23:34:16.7020|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:53114 connected.
+2026-06-02 23:35:39.4529|INFO|Sanctuary.Login.GatewayConnection|127.0.0.1:50061 disconnected. Timeout
+2026-06-02 23:36:21.2391|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-06-02 23:36:21.2477|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-06-02 23:36:21.4254|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:62421 connected.
+2026-06-02 23:36:59.0927|INFO|Sanctuary.Login.LoginServer|72.68.27.46:60562 connected.
+2026-06-02 23:37:38.4799|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:60562 disconnected. Application
+2026-06-02 23:59:35.9566|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:51572 connected.

@@ -1,0 +1,21 @@
+2026-05-19 16:08:34.0580|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-19 16:08:34.0580|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-19 16:08:35.4798|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:64312 connected.
+2026-05-19 16:10:49.7581|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-19 16:10:49.7581|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-19 16:11:12.0691|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:52784 connected.
+2026-05-19 16:18:10.0983|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-19 16:18:10.1048|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-19 16:18:11.8423|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:60467 connected.
+2026-05-19 16:24:33.0858|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-19 16:24:33.0858|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-19 16:24:35.2460|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:64389 connected.
+2026-05-19 16:30:06.0861|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-19 16:30:06.0861|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-19 16:30:08.2535|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:51027 connected.
+2026-05-19 16:30:41.0163|INFO|Sanctuary.Login.LoginServer|72.68.27.46:55403 connected.
+2026-05-19 16:31:09.7143|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:55403 disconnected. Application
+2026-05-19 17:21:34.6956|INFO|Sanctuary.Login.LoginServer|154.176.80.35:59444 connected.
+2026-05-19 17:21:43.9640|INFO|Sanctuary.Login.LoginConnection|154.176.80.35:59444 disconnected. Application
+2026-05-19 21:18:58.8750|INFO|Sanctuary.Login.LoginServer|96.46.210.181:56014 connected.
+2026-05-19 21:19:35.2197|INFO|Sanctuary.Login.LoginConnection|96.46.210.181:56014 disconnected. Application

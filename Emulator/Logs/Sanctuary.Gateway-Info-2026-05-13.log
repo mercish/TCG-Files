@@ -1,0 +1,13 @@
+2026-05-13 07:58:52.8958|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-13 07:58:52.9267|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-13 07:58:53.3263|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-13 08:02:22.1599|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:51355 connected.
+2026-05-13 08:02:48.5950|INFO|Chat|WorldSay|From: "Ernest Lizardcandy" (129), Msg: "!setspeed 1000"
+2026-05-13 08:03:22.5942|INFO|Chat|WorldSay|From: "Ernest Lizardcandy" (129), Msg: "fuck vin"
+2026-05-13 08:08:11.6598|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:51355 disconnected. Application
+2026-05-13 08:27:20.2923|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2026-05-13 08:27:20.3165|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2026-05-13 08:27:20.3382|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2026-05-13 11:02:58.3277|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:57459 connected.
+2026-05-13 11:04:40.1391|INFO|Chat|WorldSay|From: "kaine" (129), Msg: "kkk"
+2026-05-13 11:28:18.7103|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:57459 disconnected. Application

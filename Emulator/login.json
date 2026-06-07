@@ -1,0 +1,19 @@
+{
+  "Server": {
+    "Port": 20042,
+
+    "LoginGatewayPort": 20041,
+    "LoginGatewayChallenge": "OSFR-EDITz@2024",
+
+    "IsLocked": false,
+
+    "DefaultTitleId": 2,
+    "DefaultProfileId": 1,
+
+    "StartingCoins": 999999999,
+    "StartingStationCash": 999999999,
+
+    "UnlockAllTitles": true,
+    "UnlockAllProfiles": true
+  }
+}

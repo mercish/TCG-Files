@@ -1,0 +1,5 @@
+2025-11-29 08:21:05.0474|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-29 08:21:05.7040|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-29 08:21:05.7040|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-29 08:21:07.3146|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:55911 connected.
+2025-11-29 08:21:07.3890|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )

@@ -1,0 +1,8 @@
+2026-06-01 15:20:12.7748|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-06-01 16:20:03.9081|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-06-01 16:37:26.7889|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-06-01 16:37:28.1864|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-06-01 19:27:02.5809|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-06-01 19:27:04.6300|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-06-01 21:05:53.2663|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-06-01 22:30:06.0866|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database

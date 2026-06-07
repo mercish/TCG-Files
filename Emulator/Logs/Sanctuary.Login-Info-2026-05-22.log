@@ -1,0 +1,51 @@
+2026-05-22 00:15:18.7666|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 00:15:18.7732|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 00:15:19.4126|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:58420 connected.
+2026-05-22 00:15:25.4013|INFO|Sanctuary.Login.LoginServer|72.68.27.46:59257 connected.
+2026-05-22 00:15:50.6022|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:59257 disconnected. Application
+2026-05-22 01:15:38.4555|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 01:15:38.4624|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 01:15:40.1980|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:53445 connected.
+2026-05-22 01:47:44.7133|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 01:47:44.7133|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 01:47:46.1206|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:64700 connected.
+2026-05-22 02:18:26.8325|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 02:18:26.8394|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 02:18:28.9434|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:60399 connected.
+2026-05-22 02:20:24.2476|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 02:20:24.2554|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 02:20:26.2378|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:53803 connected.
+2026-05-22 02:21:58.5627|INFO|Sanctuary.Login.LoginServer|72.68.27.46:53114 connected.
+2026-05-22 02:22:30.1248|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:53114 disconnected. Application
+2026-05-22 04:36:05.6204|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 04:36:05.6297|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 04:36:06.3534|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:55374 connected.
+2026-05-22 04:37:47.0924|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 04:37:47.0995|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 04:37:47.5875|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:59931 connected.
+2026-05-22 04:38:33.5956|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 04:38:33.6031|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 04:38:34.0557|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:58506 connected.
+2026-05-22 04:44:27.9317|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 04:44:27.9317|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 04:44:28.3747|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:59449 connected.
+2026-05-22 04:49:29.4970|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 04:49:29.5052|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 04:49:29.9669|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:53445 connected.
+2026-05-22 04:52:47.4432|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 04:52:47.4432|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 04:52:48.0028|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:55601 connected.
+2026-05-22 05:00:13.7787|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 05:00:13.7872|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 05:00:14.2526|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:53445 connected.
+2026-05-22 05:03:51.8374|INFO|Sanctuary.Login.LoginServer|72.68.27.46:57272 connected.
+2026-05-22 05:04:14.9080|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:57272 disconnected. Application
+2026-05-22 05:15:33.9431|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 05:15:33.9431|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 05:15:34.5163|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:52553 connected.
+2026-05-22 05:33:43.3583|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 05:33:43.3679|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 05:33:44.1363|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:60064 connected.
+2026-05-22 11:48:58.4114|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-22 11:48:58.4114|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-22 11:48:59.4800|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:49844 connected.

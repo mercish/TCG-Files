@@ -1,0 +1,16 @@
+{
+  "Logging": {
+    "LogLevel": {
+    }
+  },
+  "WebAPI": {
+    "LaunchArguments": "AssetDelivery:IndirectServerAddress=http://127.0.0.1:3000/assets AssetDelivery:TcgServerAddress=http://127.0.0.1:3000/tcg PortraitUploadUrl=http://72.68.27.46:20040/image",
+    "AllowedHosts": "*",
+    "LoginServerOptions": {
+      "WebApiBaseUrl": "https://raisingkaines.com/login"
+    }
+  },
+  "DatabaseOptions": {
+    "ConnectionString": "Data Source=E:\\Free Realms\\Free Realms\\Emulator\\database\\sanctuary.db"
+  }
+}

@@ -1,0 +1,26 @@
+2026-05-20 09:13:25.3346|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-20 09:13:25.3584|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-20 09:13:25.8711|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:49392 connected.
+2026-05-20 09:15:39.1107|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-20 09:15:39.1173|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-20 09:15:41.1928|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:50515 connected.
+2026-05-20 09:16:25.1113|INFO|Sanctuary.Login.LoginServer|72.68.27.46:58289 connected.
+2026-05-20 09:17:10.9350|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:58289 disconnected. Application
+2026-05-20 09:30:11.5707|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-20 09:30:11.5707|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-20 09:30:13.7172|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:53294 connected.
+2026-05-20 09:30:23.4080|INFO|Sanctuary.Login.LoginServer|72.68.27.46:59173 connected.
+2026-05-20 09:30:26.3188|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:59173 disconnected. Application
+2026-05-20 09:41:32.1397|INFO|Sanctuary.Login.LoginServer|72.68.27.46:64729 connected.
+2026-05-20 09:41:34.8267|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:64729 disconnected. Application
+2026-05-20 11:57:29.2433|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2026-05-20 11:57:29.2433|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2026-05-20 11:57:30.4989|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:59841 connected.
+2026-05-20 11:58:08.4246|INFO|Sanctuary.Login.LoginServer|72.68.27.46:63831 connected.
+2026-05-20 11:58:38.5648|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:63831 disconnected. Application
+2026-05-20 19:38:36.8699|INFO|Sanctuary.Login.LoginServer|72.68.27.46:57547 connected.
+2026-05-20 19:38:41.4556|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:57547 disconnected. Application
+2026-05-20 19:50:09.7069|INFO|Sanctuary.Login.LoginServer|72.68.27.46:50938 connected.
+2026-05-20 19:50:12.2829|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:50938 disconnected. Application
+2026-05-20 23:48:14.2560|INFO|Sanctuary.Login.LoginServer|72.68.27.46:50884 connected.
+2026-05-20 23:48:37.2880|INFO|Sanctuary.Login.LoginConnection|72.68.27.46:50884 disconnected. Application

@@ -1,0 +1,49 @@
+2025-11-26 13:29:16.0220|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-26 13:29:16.7479|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-11-26 13:29:16.7479|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-11-26 13:29:16.7479|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-11-26 13:29:16.7479|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Project\FR\Emulator\src\bin\Release\
+2025-11-26 13:29:16.7479|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2025-11-26 13:29:16.7510|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2025-11-26 13:29:16.7510|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2025-11-26 13:29:20.4863|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-26 13:29:20.8032|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-11-26 13:29:20.8131|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-11-26 13:29:20.8131|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-11-26 13:29:20.8131|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Project\FR\Emulator\src\bin\Release\
+2025-11-26 13:29:20.8131|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2025-11-26 13:29:20.8131|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2025-11-26 13:29:20.8131|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2025-11-26 13:29:44.1063|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-26 13:29:45.3451|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-26 13:29:45.3451|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-26 13:30:16.5536|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:55907 connected.
+2025-11-26 13:30:16.6773|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-26 13:35:51.9302|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-26 13:35:52.2572|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-11-26 13:35:52.2572|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-11-26 13:35:52.2572|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-11-26 13:35:52.2572|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Project\FR\Emulator\src\bin\Release\
+2025-11-26 13:35:52.2572|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2025-11-26 13:35:52.2572|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2025-11-26 13:35:52.2572|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2025-11-26 13:36:03.6113|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-26 13:36:04.5818|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-26 13:36:04.5818|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-26 13:36:35.4341|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:62701 connected.
+2025-11-26 13:36:35.5058|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-26 13:43:26.5798|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-26 13:43:27.5050|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-26 13:43:27.5050|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-26 13:44:30.1420|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:56997 connected.
+2025-11-26 13:44:30.2080|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-26 13:46:21.3771|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-26 13:46:22.1686|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-26 13:46:22.1686|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-26 13:46:29.8542|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:60259 connected.
+2025-11-26 13:46:29.9239|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-26 14:54:41.4461|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-26 14:54:42.1310|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-26 14:54:42.1310|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-26 14:54:45.4325|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:56159 connected.
+2025-11-26 14:54:45.5028|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )

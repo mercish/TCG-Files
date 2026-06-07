@@ -1,0 +1,22 @@
+2025-12-14 09:55:28.0698|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\ClientItemDefinitions.zip
+2025-12-14 09:55:28.0698|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\ClientItemDefinitions.zip
+2025-12-14 10:08:56.1515|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\ClientItemDefinitions (1).json
+2025-12-14 10:08:56.1515|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\ClientItemDefinitions (1).json
+2025-12-14 10:08:56.1567|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\ClientItemDefinitions (1).json
+2025-12-14 10:08:56.1567|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\ClientItemDefinitions (1).json
+2025-12-14 10:08:56.1567|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\ClientItemDefinitions (1).json
+2025-12-14 10:08:56.1567|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\ClientItemDefinitions (1).json
+2025-12-14 10:10:14.1792|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\CoinStoreItems (2).json
+2025-12-14 10:10:14.1792|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\CoinStoreItems (2).json
+2025-12-14 10:10:14.1792|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\CoinStoreItems (2).json
+2025-12-14 10:10:14.1792|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\CoinStoreItems (2).json
+2025-12-14 10:10:14.1792|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\CoinStoreItems (2).json
+2025-12-14 10:10:14.1792|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\CoinStoreItems (2).json
+2025-12-14 10:11:03.3350|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\PlayerTitles_Attempt2.json
+2025-12-14 10:11:03.3350|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\PlayerTitles_Attempt2.json
+2025-12-14 10:11:03.3350|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\PlayerTitles_Attempt2.json
+2025-12-14 10:11:03.3350|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\PlayerTitles_Attempt2.json
+2025-12-14 10:11:03.3350|WARN|Sanctuary.Game.ResourceManager|Unknown file changed. File: Resources\PlayerTitles_Attempt2.json
+2025-12-14 10:11:03.3350|ERROR|Sanctuary.Game.ResourceManager|Error loading modified file. File: Resources\PlayerTitles_Attempt2.json
+2025-12-14 10:15:56.0687|WARN|Sanctuary.Game.ResourceManager|Failed to add entry. 37 "Resources\PlayerTitles.json"
+2025-12-14 10:15:56.0687|FATAL|Sanctuary.Login.LoginService|Cannot start LoginService. Failed to load resource(s).

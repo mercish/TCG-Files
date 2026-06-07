@@ -1,0 +1,138 @@
+2026-05-24 00:38:24.4509|WARN|PacketLoginHandler|127.0.0.1:58821 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "D1A6C20F2134476D83C5C6BE5F9A52DB" )
+2026-05-24 00:51:46.7213|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 01:13:26.2002|WARN|PacketLoginHandler|127.0.0.1:54553 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "D1A6C20F2134476D83C5C6BE5F9A52DB" )
+2026-05-24 01:16:41.0617|WARN|PacketLoginHandler|127.0.0.1:59589 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "D1A6C20F2134476D83C5C6BE5F9A52DB" )
+2026-05-24 02:22:17.2874|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=invite-response-declined|handler=ClientActivityLaunchPacketHandler|player=225|worldTunnel=true|launchRequestId=225|declineReason=3
+2026-05-24 02:37:25.7432|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 02:42:23.2434|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 02:55:08.1026|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 02:57:52.0287|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to create player entity.
+2026-05-24 02:57:56.5674|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 03:34:30.7866|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=4
+2026-05-24 04:18:27.6730|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=5
+2026-05-24 04:18:33.1891|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=37
+2026-05-24 04:23:53.9432|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=5
+2026-05-24 04:23:56.0105|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=37
+2026-05-24 04:28:04.5064|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=5
+2026-05-24 04:28:07.0258|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=37
+2026-05-24 04:32:59.2618|WARN|PacketLoginHandler|127.0.0.1:49680 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "D1A6C20F2134476D83C5C6BE5F9A52DB" )
+2026-05-24 04:36:26.8524|WARN|PacketLoginHandler|127.0.0.1:54718 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "D1A6C20F2134476D83C5C6BE5F9A52DB" )
+2026-05-24 04:41:42.9580|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=5
+2026-05-24 04:41:45.0063|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=37
+2026-05-24 05:04:08.2860|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=5
+2026-05-24 05:04:11.0205|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=37
+2026-05-24 05:28:19.2968|WARN|PacketLoginHandler|127.0.0.1:49260 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "D1A6C20F2134476D83C5C6BE5F9A52DB" )
+2026-05-24 05:45:30.8888|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 05:51:17.0027|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to create player entity.
+2026-05-24 05:51:38.4742|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 06:02:43.6219|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to create player entity.
+2026-05-24 06:03:06.8799|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 06:18:51.0845|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 06:24:06.9836|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to create player entity.
+2026-05-24 06:24:07.4265|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 06:41:07.0818|WARN|PacketLoginHandler|127.0.0.1:57141 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "70877B10C1B14678804FA3F025AF55E0" )
+2026-05-24 06:50:03.3440|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 07:00:55.6962|WARN|PacketLoginHandler|127.0.0.1:54542 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "FE1AE5463F124ABCAEBCAA4CA2DA4487" )
+2026-05-24 07:04:15.0149|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start|System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.AesAEAD.CheckKeySize(Int32 keySizeInBytes)
+   at System.Security.Cryptography.AesCcm..ctor(Byte[] key)
+   at Sanctuary.Core.Cryptography.CipherCCM.Initialize(Byte[] key) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Core\Cryptography\CipherCCM.cs:line 23
+   at Sanctuary.Gateway.GatewayConnection.InitializeCipher(String key)
+   at Sanctuary.Gateway.Handlers.PacketLoginHandler.HandlePacket(GatewayConnection connection, Span`1 data)
+   at Sanctuary.Gateway.GatewayConnection.OnHandlePacket(Span`1 data)
+   at Sanctuary.Gateway.GatewayConnection.OnRoutePacket(Span`1 data)
+   at Sanctuary.UdpLibrary.UdpManager`1.CallbackRoutePacket(UdpConnection con, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 767
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 717
+   at Sanctuary.UdpLibrary.Internal.UdpReliableChannel.ProcessPacket(ReliablePacketMode mode, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\Internal\UdpReliableChannel.cs:line 804
+   at Sanctuary.UdpLibrary.Internal.UdpReliableChannel.ReliablePacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\Internal\UdpReliableChannel.cs:line 180
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 1119
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessRawPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 677
+   at Sanctuary.UdpLibrary.UdpManager`1.ProcessRawPacket(SocketAddress socketAddress, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 630
+   at Sanctuary.UdpLibrary.UdpManager`1.GiveTime(Int32 maxPollingTime, Boolean giveConnectionsTime) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 341
+   at Sanctuary.Gateway.GatewayService.ExecuteAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.BackgroundService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-05-24 11:56:32.2995|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 12:21:08.6863|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 12:28:15.1182|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 12:32:53.8642|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 12:34:09.2104|WARN|PacketLoginHandler|127.0.0.1:61521 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "35BDAEAC01F54D4F8EDE3F75DBC7DCDB" )
+2026-05-24 12:57:01.6927|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 13:01:52.5167|WARN|PacketLoginHandler|127.0.0.1:64834 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "BE880E8B432F401F912CE46B6AAD0EBB" )
+2026-05-24 13:02:13.3173|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 13:03:44.5557|WARN|PacketLoginHandler|127.0.0.1:54024 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "0EA3739E90D34C22AD7ADCB9A25EA83F" )
+2026-05-24 13:06:37.8312|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start|System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.ArgumentOutOfRangeException: low4Bits ('14') must be equal to '1'. (Parameter 'low4Bits')
+Actual value was 14.
+   at System.ArgumentOutOfRangeException.ThrowNotEqual[T](T value, T other, String paramName)
+   at System.ArgumentOutOfRangeException.ThrowIfNotEqual[T](T value, T other, String paramName)
+   at Sanctuary.Core.Helpers.GuidHelper.GetPlayerId(UInt64 guid) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Core\Helpers\GuidHelper.cs:line 22
+   at System.Linq.Expressions.Interpreter.FuncCallInstruction`2.Run(InterpretedFrame frame)
+   at System.Linq.Expressions.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at System.Linq.Expressions.Interpreter.LightLambda.Run(Object[] arguments)
+   at System.Dynamic.Utils.DelegateHelpers.FuncThunk[TReturn](Func`2 handler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.<Evaluate>g__EvaluateCore|75_0(Expression expression, String& parameterName, Boolean& isContextAccessor)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.<Evaluate>g__EvaluateCore|75_0(Expression expression, String& parameterName, Boolean& isContextAccessor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.Evaluate(Expression expression, String& parameterName, Boolean& isContextAccessor)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.ProcessEvaluatableRoot(Expression evaluatableRoot, State& state, Boolean forceEvaluation)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.VisitBinary(BinaryExpression binary)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.Visit(Expression expression, State& state)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.VisitBinary(BinaryExpression binary)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.VisitLambda[T](Expression`1 lambda)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.VisitUnary(UnaryExpression unary)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.Visit[T](ReadOnlyCollection`1 expressions, Func`2 elementVisitor, StateType& aggregateStateType, State[]& expressionStates, Boolean poolExpressionStates)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.VisitMethodCall(MethodCallExpression methodCall)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.Visit(Expression expression, State& state)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.ExtractParameters(Expression expression, IParameterValues parameterValues, Boolean parameterize, Boolean clearParameterizedValues, Boolean precompiledQuery, IReadOnlySet`1& nonNullableReferenceTypeParameters)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ExpressionTreeFuncletizer.ExtractParameters(Expression expression, IParameterValues parameterValues, Boolean parameterize, Boolean clearParameterizedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean compiledQuery, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Sanctuary.Gateway.Handlers.PacketLoginHandler.HandlePacket(GatewayConnection connection, Span`1 data) in C:\Users\seanm\Documents\Codex\2026-05-17\continuation-of-session-019e3272-8972-7741\decompiled_gateway\Sanctuary.Gateway.Handlers\PacketLoginHandler.cs:line 69
+   at Sanctuary.UdpLibrary.UdpManager`1.CallbackRoutePacket(UdpConnection con, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 767
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 717
+   at Sanctuary.UdpLibrary.Internal.UdpReliableChannel.ReliablePacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\Internal\UdpReliableChannel.cs:line 155
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 1119
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessRawPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 677
+   at Sanctuary.UdpLibrary.UdpManager`1.ProcessRawPacket(SocketAddress socketAddress, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 630
+   at Sanctuary.UdpLibrary.UdpManager`1.GiveTime(Int32 maxPollingTime, Boolean giveConnectionsTime) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 341
+   at Sanctuary.Gateway.GatewayService.ExecuteAsync(CancellationToken cancellationToken) in C:\Users\seanm\Documents\Codex\2026-05-17\continuation-of-session-019e3272-8972-7741\decompiled_gateway\Sanctuary.Gateway\GatewayService.cs:line 97
+   at Microsoft.Extensions.Hosting.BackgroundService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-05-24 13:35:49.1140|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 13:48:55.1460|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 13:56:35.6312|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to create player entity.
+2026-05-24 13:56:57.5676|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 14:03:22.7705|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 14:19:35.5432|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 14:20:18.1815|WARN|PacketLoginHandler|127.0.0.1:49965 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "E16A2FB1F5E741239868154432A838D6" )
+2026-05-24 14:54:50.5722|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 15:00:26.2539|WARN|PacketLoginHandler|127.0.0.1:57899 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "7A5DCAD235D34429AD6A01E265AB1D42" )
+2026-05-24 15:03:55.7077|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 15:48:54.8468|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 15:50:17.1299|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 16:11:03.8223|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=6
+2026-05-24 16:30:31.8235|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=6
+2026-05-24 16:47:59.9501|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 16:50:43.4858|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 17:24:57.2251|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 17:31:26.5218|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 17:34:00.8639|WARN|PacketLoginHandler|127.0.0.1:58336 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "1FAB1278F96E4BB4AB10539E70685A67" )
+2026-05-24 17:38:17.6465|WARN|PacketLoginHandler|127.0.0.1:52295 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "D76DB6D040154573B7B92367BFA810E3" )
+2026-05-24 17:51:14.1220|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=6
+2026-05-24 17:51:44.1644|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 18:36:51.8137|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=6
+2026-05-24 18:37:21.8487|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database
+2026-05-24 18:41:57.8892|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 18:46:37.7748|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=unhandled-packet|handler=MiniGamePacketHandler|player=225|worldTunnel=false|family=MiniGame|type=6
+2026-05-24 18:48:24.4845|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 20:48:04.9123|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 21:29:20.1948|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 21:53:12.2579|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 22:27:17.7281|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 23:09:35.2493|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-24 23:20:54.0518|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false

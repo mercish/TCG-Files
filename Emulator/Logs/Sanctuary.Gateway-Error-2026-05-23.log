@@ -1,0 +1,22 @@
+2026-05-23 19:37:02.7816|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-23 20:16:18.2239|WARN|MinigameDiagnostics|MINIGAME_DIAG|event=raw-unhandled-packet|handler=RawTcgPacketHandler|player=225|worldTunnel=n/a|tunnel=client-unhandled|opcode=16|packetName=PacketClientLogout|payload=1000;payloadTruncated=false
+2026-05-23 23:04:27.0151|ERROR|Microsoft.Extensions.Hosting.Internal.Host|Hosting failed to start|System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.AesAEAD.CheckKeySize(Int32 keySizeInBytes)
+   at System.Security.Cryptography.AesCcm..ctor(Byte[] key)
+   at Sanctuary.Core.Cryptography.CipherCCM.Initialize(Byte[] key) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.Core\Cryptography\CipherCCM.cs:line 23
+   at Sanctuary.Gateway.GatewayConnection.InitializeCipher(String key)
+   at Sanctuary.Gateway.Handlers.PacketLoginHandler.HandlePacket(GatewayConnection connection, Span`1 data)
+   at Sanctuary.UdpLibrary.UdpManager`1.CallbackRoutePacket(UdpConnection con, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 767
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 717
+   at Sanctuary.UdpLibrary.Internal.UdpReliableChannel.ReliablePacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\Internal\UdpReliableChannel.cs:line 155
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessCookedPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 1119
+   at Sanctuary.UdpLibrary.UdpConnection.ProcessRawPacket(Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpConnection.cs:line 677
+   at Sanctuary.UdpLibrary.UdpManager`1.ProcessRawPacket(SocketAddress socketAddress, Span`1 data) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 630
+   at Sanctuary.UdpLibrary.UdpManager`1.GiveTime(Int32 maxPollingTime, Boolean giveConnectionsTime) in E:\GitHub\Free Realms\Sanctuary\src\Sanctuary.UdpLibrary\UdpManager.cs:line 341
+   at Sanctuary.Gateway.GatewayService.ExecuteAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.BackgroundService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-05-23 23:10:15.6784|WARN|PacketLoginHandler|127.0.0.1:53859 connected with an invalid guid or ticket. ( Guid: 225, Ticket: "378e6bf303454dd79a21f2bb1b160e8d" )
+2026-05-23 23:22:21.3342|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to create player entity.
+2026-05-23 23:22:42.7547|ERROR|Sanctuary.Gateway.GatewayConnection|Failed to save character data to database

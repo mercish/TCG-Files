@@ -1,0 +1,64 @@
+2025-11-28 10:49:15.6166|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 10:49:23.0063|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-11-28 10:49:23.0231|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-11-28 10:49:23.1206|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-11-28 10:49:23.2353|TRACE|GatewayLoginReplyHandler|Received GatewayLoginReply packet. ( Sanctuary.Packet.GatewayLoginReply )
+2025-11-28 10:57:51.4723|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 10:57:52.1825|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-11-28 10:57:52.1976|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-11-28 10:57:52.2211|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-11-28 10:57:52.3446|TRACE|GatewayLoginReplyHandler|Received GatewayLoginReply packet. ( Sanctuary.Packet.GatewayLoginReply )
+2025-11-28 11:42:10.3752|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 11:42:11.0638|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-11-28 11:42:11.0638|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-11-28 11:42:11.0946|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-11-28 11:42:11.2209|TRACE|GatewayLoginReplyHandler|Received GatewayLoginReply packet. ( Sanctuary.Packet.GatewayLoginReply )
+2025-11-28 12:08:31.5647|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 12:08:32.4900|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-11-28 12:08:32.5059|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-11-28 12:08:32.5821|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-11-28 12:08:32.7047|TRACE|GatewayLoginReplyHandler|Received GatewayLoginReply packet. ( Sanctuary.Packet.GatewayLoginReply )
+2025-11-28 12:10:13.3492|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:49274 connected.
+2025-11-28 12:10:13.4387|TRACE|PacketLoginHandler|Received PacketLogin packet. ( ( Ticket: "de911fcd-32c6-4980-9d30-f54222ca969d", Guid: 2, Version: "1.910.1.530630", Unknown: "" ) )
+2025-11-28 12:10:13.8127|TRACE|PacketSetLocaleHandler|Received PacketSetLocale packet. ( Sanctuary.Packet.PacketSetLocale )
+2025-11-28 12:10:13.8127|TRACE|PacketClientInitializationDetailsHandler|Received PacketClientInitializationDetails packet. ( Sanctuary.Packet.PacketClientInitializationDetails )
+2025-11-28 12:10:13.8127|TRACE|PacketClientLogHandler|Received PacketClientLog packet. ( Filename: ClientCas.log, Message: CasApi - Invalid CAS Authentication Token. )
+2025-11-28 12:10:13.8127|TRACE|PacketClientLogHandler|Received PacketClientLog packet. ( Filename: ClientUram.log, Message: UramManager - URAM GameCode: FR, Version: 11, UriDomain: account.station.sony.com, Certificate: soe-ssl-certs.pem. )
+2025-11-28 12:10:13.9208|TRACE|PacketPortraitDataRequestHandler|Received PacketPortraitDataRequest packet. ( Sanctuary.Packet.PacketPortraitDataRequest )
+2025-11-28 12:10:19.3588|TRACE|PacketClientIsReadyHandler|Received PacketClientIsReady packet.
+2025-11-28 12:10:19.4507|TRACE|PacketClientFinishedLoadingHandler|Received PacketClientFinishedLoading packet.
+2025-11-28 12:10:19.4573|TRACE|PacketClientLogHandler|Received PacketClientLog packet. ( Filename: ClientZoneTime.log, Message: 5558 ms )
+2025-11-28 12:10:19.4573|TRACE|PacketClientLogHandler|Received PacketClientLog packet. ( Filename: MarketingData.log, Message: Viewed loading screen loadingscreen.swf for 5.56 seconds.  Member=true, Zoning=true, Minigame Type=0 )
+2025-11-28 12:10:19.4573|TRACE|PacketClientLogHandler|Received PacketClientLog packet. ( Filename: ClientStartTime.log, Message: 17902 ms )
+2025-11-28 12:10:19.4573|TRACE|PacketClientLogHandler|Received PacketClientLog packet. ( Filename: ClientSystemInfo.log, Message: DriverVersion=00200000-000f1ff4 Device=000010de-00002c05-f3221569-161 Whql=00000000 VideoMem=3072 VShader=3.0 PShader=3.0 Desktop=2560x1440 Game=2560x1369 FullScreen=0 GraphicsQuality=3 ShadowQuality=3 TextureQuality=0 PhysicalMem=31811 VirtualMem=4095 MemoryLoadPercent=41 CpuCount=16 CpuType=586 CpuArchitecture=0 CpuLevel=0x001a CpuRevision=17408 DriverName=nvldumd.dll DeviceName=\\.\DISPLAY2 DeviceDescription=NVIDIA GeForce RTX 5070 Ti EffectFailures=None )
+2025-11-28 12:10:21.7300|TRACE|WallOfDataUIEventPacketHandler|Received WallOfDataUIEventPacket packet. ( TableName: SocialHandler, Callback: Show, Param:  )
+2025-11-28 12:10:21.7521|TRACE|WallOfDataUIEventPacketHandler|Received WallOfDataUIEventPacket packet. ( TableName: WelcomeHandler, Callback: closeWindow, Param: intotheworld )
+2025-11-28 12:10:21.7690|TRACE|WallOfDataUIEventPacketHandler|Received WallOfDataUIEventPacket packet. ( TableName: SocialHandler, Callback: getFriends, Param:  )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketSetChatBubbleColorHandler|Received CommandPacketSetChatBubbleColor packet. ( Sanctuary.Packet.CommandPacketSetChatBubbleColor )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOnHandler|Received CommandPacketChatChannelOn packet. ( Sanctuary.Packet.CommandPacketChatChannelOn )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOnHandler|Received CommandPacketChatChannelOn packet. ( Sanctuary.Packet.CommandPacketChatChannelOn )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOffHandler|Received CommandPacketChatChannelOff packet. ( Sanctuary.Packet.CommandPacketChatChannelOff )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOffHandler|Received CommandPacketChatChannelOff packet. ( Sanctuary.Packet.CommandPacketChatChannelOff )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOnHandler|Received CommandPacketChatChannelOn packet. ( Sanctuary.Packet.CommandPacketChatChannelOn )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOnHandler|Received CommandPacketChatChannelOn packet. ( Sanctuary.Packet.CommandPacketChatChannelOn )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOffHandler|Received CommandPacketChatChannelOff packet. ( Sanctuary.Packet.CommandPacketChatChannelOff )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOffHandler|Received CommandPacketChatChannelOff packet. ( Sanctuary.Packet.CommandPacketChatChannelOff )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOnHandler|Received CommandPacketChatChannelOn packet. ( Sanctuary.Packet.CommandPacketChatChannelOn )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOffHandler|Received CommandPacketChatChannelOff packet. ( Sanctuary.Packet.CommandPacketChatChannelOff )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOffHandler|Received CommandPacketChatChannelOff packet. ( Sanctuary.Packet.CommandPacketChatChannelOff )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOnHandler|Received CommandPacketChatChannelOn packet. ( Sanctuary.Packet.CommandPacketChatChannelOn )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOnHandler|Received CommandPacketChatChannelOn packet. ( Sanctuary.Packet.CommandPacketChatChannelOn )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOffHandler|Received CommandPacketChatChannelOff packet. ( Sanctuary.Packet.CommandPacketChatChannelOff )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOffHandler|Received CommandPacketChatChannelOff packet. ( Sanctuary.Packet.CommandPacketChatChannelOff )
+2025-11-28 12:10:21.7868|TRACE|CommandPacketChatChannelOnHandler|Received CommandPacketChatChannelOn packet. ( Sanctuary.Packet.CommandPacketChatChannelOn )
+2025-11-28 12:10:39.4393|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:49274 disconnected. Application
+2025-11-28 12:39:18.4372|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 12:39:19.1099|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-11-28 12:39:19.1099|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-11-28 12:39:19.1383|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-11-28 12:39:19.2662|TRACE|GatewayLoginReplyHandler|Received GatewayLoginReply packet. ( Sanctuary.Packet.GatewayLoginReply )
+2025-11-28 12:39:46.4095|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 12:39:47.0792|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-11-28 12:39:47.0792|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-11-28 12:39:47.1077|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-11-28 12:39:47.2360|TRACE|GatewayLoginReplyHandler|Received GatewayLoginReply packet. ( Sanctuary.Packet.GatewayLoginReply )

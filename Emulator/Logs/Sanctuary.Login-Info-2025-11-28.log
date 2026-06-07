@@ -1,0 +1,48 @@
+2025-11-28 10:49:16.1946|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 10:49:22.8938|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-28 10:49:22.8938|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-28 10:49:23.0363|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:60597 connected.
+2025-11-28 10:49:23.1742|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-28 10:57:49.3068|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 10:57:50.0760|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-28 10:57:50.0760|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-28 10:57:52.2138|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:64792 connected.
+2025-11-28 10:57:52.2839|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-28 11:32:58.9910|INFO|Sanctuary.Login.LoginServer|127.0.0.1:57688 connected.
+2025-11-28 11:32:59.0658|TRACE|LoginRequestHandler|Received LoginRequest packet. ( Session: "1_1764322371", Fingerprint: "" )
+2025-11-28 11:32:59.4998|TRACE|ServerListRequestHandler|Received ServerListRequest packet.
+2025-11-28 11:32:59.6183|TRACE|CharacterSelectInfoRequestHandler|Received CharacterSelectInfoRequest packet.
+2025-11-28 11:33:17.1693|INFO|Sanctuary.Login.LoginConnection|127.0.0.1:57688 disconnected. Application
+2025-11-28 11:42:09.0471|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 11:42:09.6870|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-28 11:42:09.6870|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-28 11:42:11.0906|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:50076 connected.
+2025-11-28 11:42:11.1588|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-28 11:44:40.6857|INFO|Sanctuary.Login.LoginServer|127.0.0.1:53959 connected.
+2025-11-28 11:44:40.7602|TRACE|LoginRequestHandler|Received LoginRequest packet. ( Session: "1_1764323074", Fingerprint: "" )
+2025-11-28 11:44:41.0256|TRACE|ServerListRequestHandler|Received ServerListRequest packet.
+2025-11-28 11:44:41.1335|TRACE|CharacterSelectInfoRequestHandler|Received CharacterSelectInfoRequest packet.
+2025-11-28 11:44:49.6164|INFO|Sanctuary.Login.LoginConnection|127.0.0.1:53959 disconnected. Application
+2025-11-28 12:08:30.8754|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 12:08:32.3932|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-28 12:08:32.3932|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-28 12:08:32.5228|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:64271 connected.
+2025-11-28 12:08:32.6435|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-28 12:10:06.3462|INFO|Sanctuary.Login.LoginServer|127.0.0.1:55459 connected.
+2025-11-28 12:10:06.4208|TRACE|LoginRequestHandler|Received LoginRequest packet. ( Session: "1_1764324601", Fingerprint: "" )
+2025-11-28 12:10:06.7150|TRACE|ServerListRequestHandler|Received ServerListRequest packet.
+2025-11-28 12:10:06.8210|TRACE|CharacterSelectInfoRequestHandler|Received CharacterSelectInfoRequest packet.
+2025-11-28 12:10:13.2523|TRACE|CharacterLoginRequestHandler|Received CharacterLoginRequest packet. ( EntityKey: 2, ServerId: 0, Payload: "05000000656E5F55530800000001000000000000000000" )
+2025-11-28 12:10:13.3374|INFO|Sanctuary.Login.LoginConnection|127.0.0.1:55459 disconnected. Application
+2025-11-28 12:10:13.7963|TRACE|GatewayCharacterLoginHandler|Received GatewayCharacterLogin packet. ( Sanctuary.Packet.GatewayCharacterLogin )
+2025-11-28 12:10:39.6558|TRACE|GatewayCharacterLogoutHandler|Received GatewayCharacterLogout packet. ( Sanctuary.Packet.GatewayCharacterLogout )
+2025-11-28 12:39:16.6300|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 12:39:17.3233|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-28 12:39:17.3233|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-28 12:39:19.1343|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:63178 connected.
+2025-11-28 12:39:19.2052|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )
+2025-11-28 12:39:44.8777|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-11-28 12:39:45.5477|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-11-28 12:39:45.5477|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-11-28 12:39:47.1033|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:57609 connected.
+2025-11-28 12:39:47.1740|TRACE|GatewayLoginRequestHandler|Received GatewayLoginRequest packet. ( Sanctuary.Packet.GatewayLoginRequest )

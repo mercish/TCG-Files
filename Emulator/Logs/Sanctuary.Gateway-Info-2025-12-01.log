@@ -1,0 +1,52 @@
+2025-12-01 12:01:45.9991|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 12:01:46.0270|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 12:01:46.0900|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 12:02:10.1965|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 12:02:10.2166|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 12:02:10.2334|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 12:12:54.0489|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 12:12:54.0696|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 12:12:54.1258|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 12:47:57.7152|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:63504 connected.
+2025-12-01 12:48:13.0322|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:63504 disconnected. Application
+2025-12-01 12:51:21.8352|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:51750 connected.
+2025-12-01 13:00:17.2663|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:51750 disconnected. Application
+2025-12-01 13:02:00.3901|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 13:02:00.4119|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 13:02:00.4678|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 13:03:09.2538|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 13:03:09.2836|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 13:03:09.3087|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 13:05:20.2280|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 13:05:20.3902|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 13:05:20.4120|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 13:17:19.0467|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 13:17:19.0674|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 13:31:42.1577|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 13:31:42.1790|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 13:31:42.1953|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 13:32:50.0966|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 13:32:50.1169|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 13:32:50.1339|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 13:39:12.1074|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 13:39:12.1278|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 13:39:12.1444|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 14:01:21.8022|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 14:01:21.8224|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 14:01:21.8790|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 14:03:18.0217|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:51577 connected.
+2025-12-01 14:17:50.9839|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:51577 disconnected. Application
+2025-12-01 14:36:08.0882|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 14:36:08.0956|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 14:36:08.1254|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 14:37:08.9723|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:63786 connected.
+2025-12-01 14:46:28.4975|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:63786 disconnected. Application
+2025-12-01 14:51:08.6026|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:50943 connected.
+2025-12-01 14:58:01.0906|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:50943 disconnected. Application
+2025-12-01 15:03:56.3583|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:52593 connected.
+2025-12-01 15:19:07.9825|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:52593 disconnected. Application
+2025-12-01 20:47:00.3300|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-01 20:47:00.3838|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-01 20:47:00.4651|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-01 20:47:43.2428|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:60553 connected.
+2025-12-01 21:32:17.4377|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:60553 disconnected. Application

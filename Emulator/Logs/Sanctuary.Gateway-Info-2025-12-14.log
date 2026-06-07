@@ -1,0 +1,19 @@
+2025-12-14 09:54:09.8404|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-14 09:54:09.8734|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-14 09:54:09.9671|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-14 09:58:54.0988|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-14 09:58:54.1198|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-14 09:58:54.1369|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-14 10:12:36.4754|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:55345 connected.
+2025-12-14 10:14:42.0669|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:55345 disconnected. Application
+2025-12-14 10:15:57.0666|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-12-14 10:15:57.0666|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-12-14 10:15:57.0666|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-12-14 10:15:57.0666|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Games\PC\Free Realms\Emulator\
+2025-12-14 10:17:22.1036|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-14 10:17:22.1264|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.
+2025-12-14 10:17:22.1431|INFO|Sanctuary.Gateway.LoginConnection|127.0.0.1:20041 connected.
+2025-12-14 10:17:48.1051|INFO|Sanctuary.Gateway.GatewayServer|127.0.0.1:51917 connected.
+2025-12-14 10:21:16.9036|INFO|Sanctuary.Gateway.GatewayConnection|127.0.0.1:51917 disconnected. Application
+2025-12-14 10:38:38.0128|INFO|Sanctuary.Game.ResourceManager|Loaded 5 interactions.
+2025-12-14 10:38:38.0329|INFO|Sanctuary.Gateway.GatewayService|GatewayServer started and is listening on port '20260'.

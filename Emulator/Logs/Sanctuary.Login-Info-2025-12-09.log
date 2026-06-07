@@ -1,0 +1,7 @@
+2025-12-09 21:21:12.6342|INFO|Sanctuary.Login.LoginService|LoginServer started and is listening on port '20042'.
+2025-12-09 21:21:12.6421|INFO|Sanctuary.Login.LoginService|GatewayServer started and is connecting to address '20041'.
+2025-12-09 21:21:12.6643|INFO|Sanctuary.Login.GatewayServer|127.0.0.1:64942 connected.
+2025-12-09 21:23:13.0437|INFO|Sanctuary.Login.LoginServer|127.0.0.1:60927 connected.
+2025-12-09 21:24:06.8444|INFO|Sanctuary.Login.LoginConnection|127.0.0.1:60927 disconnected. Application
+2025-12-09 21:25:33.0989|INFO|Sanctuary.Login.LoginServer|127.0.0.1:62943 connected.
+2025-12-09 21:25:47.7651|INFO|Sanctuary.Login.LoginConnection|127.0.0.1:62943 disconnected. Application

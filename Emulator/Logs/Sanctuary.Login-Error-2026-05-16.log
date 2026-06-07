@@ -1,0 +1,5 @@
+2026-05-16 17:05:40.0151|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: 1_1778964962 )
+2026-05-16 17:07:50.1048|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: 1_1778964962 )
+2026-05-16 17:29:47.3710|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: manual_tcg_probe )
+2026-05-16 17:30:23.5627|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: c8b00cccdd2d40ca9315ca3e7aa2df8b )
+2026-05-16 18:12:31.2275|WARN|LoginRequestHandler|User tried to login with an invalid session. ( Session: f7e028e154ed48b7a857fffd2e0b6b8c )
