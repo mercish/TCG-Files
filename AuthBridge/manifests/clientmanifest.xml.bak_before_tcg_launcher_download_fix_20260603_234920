@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClientManifest version="1" languages="en">
+  <Folder>
+    <Folder name="data" />
+    <Folder name="tcg">
+      <Folder name="data">
+        <Folder name="archetypes">
+          <File name="actionIndex.dat" size="32387" hash="8318157784863092944" />
+          <File name="actionStorage.dat" size="319434" hash="8503322061142377559" />
+          <File name="index.dat" size="15237" hash="16582454773280641639" />
+          <File name="msgIndexen.dat" size="17976" hash="285011307862851351" />
+          <File name="msgStorageen.dat" size="102000" hash="812857183183168251" />
+          <File name="ruleIndex.dat" size="113593" hash="691061820830441729" />
+          <File name="ruleStorage.dat" size="844325" hash="13163044922201010685" />
+          <File name="storage.dat" size="333567" hash="6936712405283228092" />
+        </Folder>
+        <Folder name="collections">
+          <File name="default.cln" size="356892" hash="3346392905851261831" />
+        </Folder>
+        <Folder name="tutorial">
+          <File name="index" size="24304" hash="1313498234054517827" />
+          <File name="objects" size="177665" hash="9950361194399820603" />
+        </Folder>
+        <File name="ban.dat" size="4" hash="11339396051936363247" />
+        <File name="campaign.dat" size="668" hash="16771518830054985090" />
+        <File name="restrict.dat" size="4" hash="11339396051936363247" />
+      </Folder>
+      <Folder name="locale">
+        <File name="de_de_data.dat" size="765247" hash="15235326073024500391" />
+        <File name="de_de_data.dir" size="256438" hash="4019550708391515158" />
+        <File name="en_gb_data.dat" size="650283" hash="1703701544409496202" />
+        <File name="en_gb_data.dir" size="253667" hash="13866955349118434935" />
+        <File name="en_us_data.dat" size="340893" hash="4931759784616454975" />
+        <File name="en_us_data.dir" size="120302" hash="16550155905063633673" />
+        <File name="es_es_data.dat" size="732456" hash="6454729853120966862" />
+        <File name="es_es_data.dir" size="255735" hash="4043185599181765307" />
+        <File name="es_mx_data.dat" size="732501" hash="7768594817116598469" />
+        <File name="es_mx_data.dir" size="255732" hash="6765547632044928427" />
+        <File name="fr_fr_data.dat" size="743917" hash="6496972643598965970" />
+        <File name="fr_fr_data.dir" size="254725" hash="12713925326847294034" />
+        <File name="pt_br_data.dat" size="724561" hash="13446728921865215760" />
+        <File name="pt_br_data.dir" size="256630" hash="4594524024457046573" />
+        <File name="zh_cn_data.dat" size="476073" hash="9577647455693910235" />
+        <File name="zh_cn_data.dir" size="188383" hash="5112421521943246733" />
+      </Folder>
+      <File name="AssetsTcg_manifest.txt" size="1964" hash="2794760702975424963" />
+      <File name="cards.rcc" size="54014266" hash="10469926695877444181" />
+      <File name="client.br.qm" size="735078" hash="4181951249397581652" />
+      <File name="client.cn.qm" size="673379" hash="5892007794024431373" />
+      <File name="client.de.qm" size="774191" hash="12499064658360985811" />
+      <File name="client.es.qm" size="756497" hash="14583219695506371870" />
+      <File name="client.fr.qm" size="760011" hash="380532820353491653" />
+      <File name="client.gb.qm" size="724970" hash="2872545299617313446" />
+      <File name="client.mx.qm" size="749959" hash="7482634061497421264" />
+      <File name="client.pt_br.qm" size="751341" hash="4264701450246055517" />
+      <File name="client.zh_cn.qm" size="673379" hash="5892007794024431373" />
+      <File name="core_resources.rcc" size="6273179" hash="5327121727913593129" />
+      <File name="effects.rcc" size="2114348" hash="13861902532073235810" />
+      <File name="foil.rcc" size="8892" hash="3374736264279677248" />
+      <File name="FreeRealmsTCG.dll" size="8990720" hash="12015503104600835617" />
+      <File name="Microsoft.VC80.CRT.manifest" size="522" hash="7982815102261537730" />
+      <File name="msvcm80.dll" size="479232" hash="650376604952779412" />
+      <File name="msvcp80.dll" size="548864" hash="10526313954840575568" />
+      <File name="msvcr80.dll" size="626688" hash="10282912377633472902" />
+      <File name="QtCore4.dll" size="1769472" hash="7604140709851761458" />
+      <File name="QtGui4.dll" size="6836224" hash="864367653347249690" />
+      <File name="QtNetwork4.dll" size="376832" hash="5094573671736051186" />
+      <File name="QtScript4.dll" size="614400" hash="5209098736332957700" />
+      <File name="QtSvg4.dll" size="282624" hash="10423313976279180602" />
+      <File name="QtXml4.dll" size="376832" hash="7424065233231185395" />
+      <File name="resources.rcc" size="16120495" hash="5414920765499652954" />
+      <File name="sounds.rcc" size="576871" hash="16664000673249821318" />
+    </Folder>
+  </Folder>
+</ClientManifest>

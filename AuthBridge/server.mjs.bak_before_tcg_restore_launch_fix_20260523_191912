@@ -1,0 +1,933 @@
+import express from "express";
+import sqlite3pkg from "sqlite3";
+import fs from "fs";
+import path from "path";
+import zlib from "zlib";
+import crypto from "crypto";
+import bcrypt from "bcryptjs";
+import { fileURLToPath } from "url";
+import {
+    registerTcgRoutes,
+    tcgRoot,
+    clientRoot as tcgClientRoot,
+    writeMinigameDiagnostic
+} from "./tcgAssetHelpers.mjs";
+
+const app = express();
+const port = Number(process.env.AUTHBRIDGE_PORT ?? 3000);
+const publicBaseUrl = (process.env.AUTHBRIDGE_PUBLIC_URL ?? `http://127.0.0.1:${port}`).replace(/\/$/, "");
+const tcgBaseUrl = (process.env.TCG_PUBLIC_URL ?? publicBaseUrl).replace(/\/$/, "");
+const remoteLoginUrl = process.env.AUTHBRIDGE_REMOTE_LOGIN_URL ?? "https://raisingkaines.com/login";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const rootDir = path.resolve(__dirname, "..");
+const clientRoot = tcgClientRoot;
+const osfrExtractClientRoot = path.join(rootDir, "Emulator", "downloads", "osfr_client_extract", "OSFR Client");
+const assetPackRoots = [clientRoot, osfrExtractClientRoot]
+    .filter((root, index, roots) => fs.existsSync(root) && roots.findIndex((candidate) => path.resolve(candidate).toLowerCase() === path.resolve(root).toLowerCase()) === index);
+const assetManifestPath = path.join(clientRoot, "Assets_manifest.txt");
+const assetManifestAliases = [
+    {
+        name: "undefined",
+        source: "undefined.dds",
+        crc: 904091205,
+        size: 16512,
+        reason: "minigame-placeholder-image"
+    }
+];
+const assetManifestOverrides = new Map([
+    ["hsg_chair_throne_01.dds.z", { crc: 904091205, size: 6816, source: "undefined.dds.z" }],
+    ["hsg_pots_01.dds.z", { crc: 904091205, size: 6816, source: "undefined.dds.z" }],
+    ["hsg_castle_interior_pillow_01.cdt.z", { crc: 141006421, size: 3906, source: "cave_boulder_03.cdt.z" }],
+    ["hsg_castle_interior_pillow_01_lod0.dme.z", { crc: 2998498438, size: 5152, source: "freestyle_fairy_f_feet_closedtoesandals.dme.z" }],
+    ["hsg_pots_01_lod0.dme.z", { crc: 2998498438, size: 5152, source: "freestyle_fairy_f_feet_closedtoesandals.dme.z" }]
+]);
+const missingAssetFallbacks = [
+    {
+        pattern: /\.dds$/i,
+        source: "undefined.dds",
+        reason: "missing-texture-placeholder"
+    },
+    {
+        pattern: /\.cdt$/i,
+        source: "cave_boulder_03.cdt",
+        reason: "missing-collision-placeholder"
+    },
+    {
+        pattern: /\.dme$/i,
+        source: "freestyle_fairy_f_feet_closedtoesandals.dme",
+        reason: "missing-model-placeholder"
+    }
+];
+const packedAssetOverrides = [
+    {
+        name: "undefined.dds",
+        packPath: path.join(clientRoot, "Assets_004.pack"),
+        offset: 49716548,
+        size: 16512,
+        crc: 904091205
+    }
+];
+
+const sqlite3 = sqlite3pkg.verbose();
+const dbFile = path.join(rootDir, "Emulator", "database", "sanctuary.db");
+const db = new sqlite3.Database(dbFile, (err) => {
+    if (err) {
+        console.error("Failed to open database:", dbFile, err);
+    } else {
+        console.log("Connected to DB at:", dbFile);
+    }
+});
+
+function runDb(sql, params = []) {
+    return new Promise((resolve) => {
+        db.run(sql, params, function onRun(err) {
+            resolve({
+                err,
+                changes: this?.changes ?? 0
+            });
+        });
+    });
+}
+
+async function syncLocalLoginSession(username, sessionId) {
+    const sessionCreated = new Date().toISOString();
+    const result = await runDb(
+        "UPDATE Users SET Session = ?, SessionCreated = ? WHERE lower(Username) = lower(?)",
+        [sessionId, sessionCreated, username]
+    );
+
+    if (result.err) {
+        logAssetDiagnostic("ERROR", "local-login-session-sync-failed", {
+            usernameProvided: true,
+            sessionId: "present",
+            error: result.err.message
+        });
+        return false;
+    }
+
+    logAssetDiagnostic(result.changes > 0 ? "INFO" : "WARN", "local-login-session-sync", {
+        usernameProvided: true,
+        sessionId: "present",
+        userMatched: result.changes > 0,
+        changes: result.changes
+    });
+    return result.changes > 0;
+}
+
+const crcTable = new Uint32Array(256);
+for (let i = 0; i < 256; i++) {
+    let c = i;
+    for (let j = 0; j < 8; j++) {
+        c = (c & 1) ? (0xedb88320 ^ (c >>> 1)) : (c >>> 1);
+    }
+    crcTable[i] = c >>> 0;
+}
+
+function crc32(buffer) {
+    let crc = 0xffffffff;
+    for (const byte of buffer) {
+        crc = crcTable[(crc ^ byte) & 0xff] ^ (crc >>> 8);
+    }
+    return (crc ^ 0xffffffff) >>> 0;
+}
+
+function encodeFreeRealmsZ(data) {
+    const header = Buffer.alloc(8);
+    header.writeUInt32BE(0xa1b2c3d4, 0);
+    header.writeUInt32BE(data.length >>> 0, 4);
+    return Buffer.concat([header, zlib.deflateSync(data)]);
+}
+
+function safeClientPath(relativePath) {
+    const normalized = path.normalize(relativePath).replace(/^([/\\])+/, "");
+    const fullPath = path.join(clientRoot, normalized);
+    const relative = path.relative(clientRoot, fullPath);
+    if (relative.startsWith("..") || path.isAbsolute(relative)) {
+        return null;
+    }
+    return fullPath;
+}
+
+function logAssetDiagnostic(level, eventName, fields = {}) {
+    writeMinigameDiagnostic(level, eventName, fields, "AuthBridgeAssetDelivery");
+}
+
+function sendAssetReadFailure(res, eventName, fields, err) {
+    logAssetDiagnostic("WARN", eventName, {
+        ...fields,
+        error: err?.message ?? "not found"
+    });
+    return res.sendStatus(404);
+}
+
+function augmentAssetManifest(data) {
+    let text = data.toString("utf8");
+    const lines = text.split(/\r?\n/);
+    let overridesApplied = 0;
+    for (let i = 0; i < lines.length; i++) {
+        const [name] = lines[i].split(",", 1);
+        const override = assetManifestOverrides.get(name?.toLowerCase());
+        if (override) {
+            lines[i] = `${name},${override.crc},${override.size}`;
+            overridesApplied++;
+        }
+    }
+    for (const [name, override] of assetManifestOverrides) {
+        if (!lines.some((line) => line.toLowerCase().startsWith(`${name},`))) {
+            lines.push(`${name},${override.crc},${override.size}`);
+            overridesApplied++;
+        }
+    }
+    if (overridesApplied > 0) {
+        logAssetDiagnostic("INFO", "asset-manifest-overrides-applied", {
+            count: overridesApplied
+        });
+    }
+    text = lines.join("\r\n");
+    for (const alias of assetManifestAliases) {
+        const linePrefix = `${alias.name},`;
+        if (!text.split(/\r?\n/).some((line) => line.startsWith(linePrefix))) {
+            if (!text.endsWith("\n")) {
+                text += "\r\n";
+            }
+            text += `${alias.name},${alias.crc},${alias.size}\r\n`;
+        }
+    }
+    return Buffer.from(text, "utf8");
+}
+
+function readAugmentedAssetManifest(callback) {
+    fs.readFile(assetManifestPath, (err, data) => {
+        if (err) {
+            callback(err);
+            return;
+        }
+        callback(null, augmentAssetManifest(data));
+    });
+}
+
+function sendAugmentedAssetManifest(req, res, response) {
+    readAugmentedAssetManifest((err, data) => {
+        if (err) {
+            return sendAssetReadFailure(res, "asset-manifest-read-failed", {
+                request: req.path,
+                path: assetManifestPath,
+                response
+            }, err);
+        }
+        const compressed = encodeFreeRealmsZ(data);
+        logAssetDiagnostic("INFO", "asset-manifest-served", {
+            request: req.path,
+            response,
+            compression: "freerealms-z",
+            size: data.length,
+            compressedSize: compressed.length,
+            crc: crc32(data)
+        });
+        res.type("application/octet-stream").send(compressed);
+    });
+}
+
+function sendDeflatedClientFile(res, fullPath, fields) {
+    fs.readFile(fullPath, (err, data) => {
+        if (err) {
+            return sendAssetReadFailure(res, "asset-read-failed", fields, err);
+        }
+        res.type("application/octet-stream").send(encodeFreeRealmsZ(data));
+    });
+}
+
+function sendClientFile(req, res, fullPath, fields) {
+    res.sendFile(fullPath, (err) => {
+        if (!err) {
+            return;
+        }
+        if (!res.headersSent) {
+            sendAssetReadFailure(res, "asset-read-failed", fields, err);
+        } else {
+            logAssetDiagnostic("WARN", "asset-send-failed-after-headers", {
+                ...fields,
+                error: err.message
+            });
+        }
+    });
+}
+
+let assetPackFiles = null;
+let packedAssetIndex = null;
+const packedAssetCache = new Map();
+
+function getAssetPackFiles() {
+    if (assetPackFiles) {
+        return assetPackFiles;
+    }
+
+    const files = [];
+    const collectPackFiles = (dir) => {
+        const entries = fs.readdirSync(dir, { withFileTypes: true })
+            .sort((a, b) => a.name.localeCompare(b.name));
+        for (const entry of entries) {
+            const fullPath = path.join(dir, entry.name);
+            if (entry.isDirectory()) {
+                collectPackFiles(fullPath);
+            } else if (/\.pack$/i.test(entry.name)) {
+                files.push(fullPath);
+            }
+        }
+    };
+
+    for (const root of assetPackRoots) {
+        collectPackFiles(root);
+    }
+    assetPackFiles = files;
+    logAssetDiagnostic("INFO", "asset-pack-files-indexed", {
+        count: assetPackFiles.length,
+        roots: assetPackRoots.join(";")
+    });
+    return assetPackFiles;
+}
+
+function getPackedAssetIndex() {
+    if (packedAssetIndex) {
+        return packedAssetIndex;
+    }
+
+    packedAssetIndex = new Map();
+    for (const packPath of getAssetPackFiles()) {
+        indexAssetPack(packPath, packedAssetIndex);
+    }
+
+    logAssetDiagnostic("INFO", "asset-pack-index-built", {
+        entries: packedAssetIndex.size,
+        packs: getAssetPackFiles().length
+    });
+    return packedAssetIndex;
+}
+
+function indexAssetPack(packPath, index) {
+    let fd;
+    try {
+        fd = fs.openSync(packPath, "r");
+        const fileSize = fs.fstatSync(fd).size;
+
+        let offset = 0;
+        let indexed = 0;
+        while (offset < fileSize) {
+            const headerBuf = Buffer.alloc(8);
+            const bytesRead = fs.readSync(fd, headerBuf, 0, 8, offset);
+            if (bytesRead < 8) break;
+
+            const nextOffset = headerBuf.readUInt32BE(0);
+            const count = headerBuf.readUInt32BE(4);
+
+            if (count <= 0) {
+                if (nextOffset === 0) break;
+                offset = nextOffset;
+                continue;
+            }
+
+            const dirSize = Math.min(fileSize - offset, count * 80 + 128);
+            const dirBuf = Buffer.alloc(dirSize);
+            const dirBytesRead = fs.readSync(fd, dirBuf, 0, dirBuf.length, offset);
+
+            let pos = 8;
+            for (let i = 0; i < count; i++) {
+                if (pos + 4 > dirBytesRead) break;
+                const nameLength = dirBuf.readUInt32BE(pos);
+                pos += 4;
+                if (nameLength <= 0 || nameLength > 1024 || pos + nameLength + 12 > dirBytesRead) {
+                    break;
+                }
+                const name = dirBuf.subarray(pos, pos + nameLength).toString("utf8");
+                pos += nameLength;
+                const fileOffset = dirBuf.readUInt32BE(pos);
+                const fileSizeEntry = dirBuf.readUInt32BE(pos + 4);
+                const crc = dirBuf.readUInt32BE(pos + 8);
+                pos += 12;
+
+                if (fileSizeEntry <= 0 || fileOffset <= 0 || fileOffset + fileSizeEntry > fileSize) {
+                    continue;
+                }
+
+                const cacheKey = name.toLowerCase();
+                if (!index.has(cacheKey)) {
+                    index.set(cacheKey, {
+                        name,
+                        packPath,
+                        offset: fileOffset,
+                        size: fileSizeEntry,
+                        crc
+                    });
+                    indexed++;
+                }
+            }
+
+            if (nextOffset === 0) break;
+            offset = nextOffset;
+        }
+
+        logAssetDiagnostic("INFO", "asset-pack-indexed", {
+            pack: packPath,
+            entries: indexed
+        });
+    } catch (err) {
+        logAssetDiagnostic("WARN", "asset-pack-index-failed", {
+            pack: packPath,
+            error: err.message
+        });
+    } finally {
+        if (fd !== undefined) {
+            fs.closeSync(fd);
+        }
+    }
+}
+
+function findPackedAssetByExactName(assetName) {
+    const cacheKey = assetName.toLowerCase();
+    if (packedAssetCache.has(cacheKey)) {
+        return packedAssetCache.get(cacheKey);
+    }
+
+    const indexed = getPackedAssetIndex().get(cacheKey) ?? null;
+    if (indexed) {
+        packedAssetCache.set(cacheKey, indexed);
+        return indexed;
+    }
+
+    const override = packedAssetOverrides.find((entry) => entry.name.toLowerCase() === cacheKey) ?? null;
+    if (override && fs.existsSync(override.packPath)) {
+        const packSize = fs.statSync(override.packPath).size;
+        if (override.offset > 0 && override.size > 0 && override.offset + override.size <= packSize) {
+            packedAssetCache.set(cacheKey, override);
+            return override;
+        }
+    }
+
+    packedAssetCache.set(cacheKey, null);
+    return null;
+}
+
+function addPackedAssetCandidate(candidates, value) {
+    if (!value) {
+        return;
+    }
+    const normalized = value.replace(/\\/g, "/").replace(/^\/+/, "");
+    if (!normalized || normalized.startsWith("../") || normalized.includes("/../")) {
+        return;
+    }
+    if (!candidates.includes(normalized)) {
+        candidates.push(normalized);
+    }
+}
+
+function packedAssetCandidates(relativePath) {
+    const normalized = path.posix.normalize(relativePath.replace(/\\/g, "/")).replace(/^\/+/, "");
+    const baseName = path.posix.basename(normalized);
+    const compactNames = [normalized];
+    if (baseName && baseName !== normalized) {
+        compactNames.push(baseName);
+    }
+
+    const candidates = [];
+    for (const name of compactNames) {
+        const ext = path.posix.extname(name);
+        if (!ext) {
+            const alias = assetManifestAliases.find((entry) => entry.name.toLowerCase() === name.toLowerCase());
+            if (alias) {
+                addPackedAssetCandidate(candidates, alias.source);
+            }
+            for (const suffix of [".dds", ".png", ".gfx", ".lst", ".swf"]) {
+                addPackedAssetCandidate(candidates, `${name}${suffix}`);
+            }
+        }
+        addPackedAssetCandidate(candidates, name);
+    }
+    return candidates;
+}
+
+function resolvePackedAsset(relativePath) {
+    for (const candidate of packedAssetCandidates(relativePath)) {
+        const entry = findPackedAssetByExactName(candidate);
+        if (entry) {
+            return {
+                requested: relativePath,
+                resolved: candidate,
+                entry
+            };
+        }
+    }
+    return null;
+}
+
+function resolveMissingAssetFallback(relativePath) {
+    const normalized = path.posix.normalize(relativePath.replace(/\\/g, "/")).replace(/^\/+/, "");
+    const fallback = missingAssetFallbacks.find((entry) => entry.pattern.test(normalized));
+    if (!fallback) {
+        return null;
+    }
+
+    const packed = resolvePackedAsset(fallback.source);
+    if (!packed) {
+        logAssetDiagnostic("WARN", "asset-fallback-missing", {
+            asset: normalized,
+            fallback: fallback.source,
+            reason: fallback.reason
+        });
+        return null;
+    }
+
+    return {
+        ...packed,
+        fallbackSource: fallback.source,
+        fallbackReason: fallback.reason
+    };
+}
+
+function readPackedAsset(entry) {
+    const fd = fs.openSync(entry.packPath, "r");
+    try {
+        const data = Buffer.alloc(entry.size);
+        fs.readSync(fd, data, 0, entry.size, entry.offset);
+        return data;
+    } finally {
+        fs.closeSync(fd);
+    }
+}
+
+function sendPackedAsset(res, packed, fields, shouldDeflate) {
+    let data;
+    try {
+        data = readPackedAsset(packed.entry);
+    } catch (err) {
+        return sendAssetReadFailure(res, "asset-pack-read-failed", {
+            ...fields,
+            resolvedAsset: packed.resolved,
+            pack: packed.entry.packPath,
+            offset: packed.entry.offset,
+            size: packed.entry.size
+        }, err);
+    }
+
+    logAssetDiagnostic("INFO", "asset-pack-served", {
+        ...fields,
+        resolvedAsset: packed.resolved,
+        pack: packed.entry.packPath,
+        offset: packed.entry.offset,
+        size: packed.entry.size,
+        crc: packed.entry.crc,
+        deflated: shouldDeflate
+    });
+
+    res.type("application/octet-stream").send(shouldDeflate ? encodeFreeRealmsZ(data) : data);
+}
+
+app.use(express.json());
+
+app.get("/", (req, res) => {
+    res.send("AuthBridge online");
+});
+
+app.get(["/servermanifest.xml", "/login/servermanifest.xml"], (req, res) => {
+    res.sendFile("manifests/servermanifest.xml", { root: __dirname });
+});
+
+app.get(["/clientmanifest.xml", "/login/clientmanifest.xml"], (req, res) => {
+    res.sendFile("manifests/clientmanifest.xml", { root: __dirname });
+});
+
+app.get(["/server/servermanifest.xml", "/server/login/servermanifest.xml"], (req, res) => {
+    res.type("application/xml").send(`<?xml version="1.0" encoding="utf-8"?>
+<ServerManifest version="1">
+  <Name>Kaine's Server</Name>
+  <Description>Welcome!</Description>
+  <LoginServer>72.68.27.46:20042</LoginServer>
+  <LoginApiUrl>${remoteLoginUrl}</LoginApiUrl>
+  <RegisterUrl>${remoteLoginUrl}/register</RegisterUrl>
+</ServerManifest>
+`);
+});
+
+app.get(["/server/clientmanifest.xml", "/server/login/clientmanifest.xml"], async (req, res) => {
+    try {
+        const upstream = await fetch(`${remoteLoginUrl}/clientmanifest.xml`);
+        if (upstream.ok) {
+            res.type(upstream.headers.get("content-type") ?? "application/xml").send(await upstream.text());
+            return;
+        }
+    } catch {
+    }
+
+    res.sendFile("manifests/clientmanifest.xml", { root: __dirname });
+});
+
+app.get(["/tcg", "/tcg/"], (req, res) => {
+    res.type("text/plain").send("TCG asset server online. Try /tcg/AssetsTcg_manifest.txt");
+});
+
+app.get(["/assets", "/assets/"], (req, res) => {
+    res.type("text/plain").send("Game asset server online. Try /assets/Assets_manifest.txt");
+});
+
+app.get([
+    "/assets/manifest.crc",
+    "/assets/manifest.txt.crc",
+    "/assets/Assets_manifest.crc",
+    "/assets/Assets_manifest.txt.crc",
+    "/assets/Assets_manifest_crc",
+    "/assets/Assets_manifest.txt_crc"
+], (req, res) => {
+    readAugmentedAssetManifest((err, data) => {
+        if (err) {
+            return sendAssetReadFailure(res, "asset-manifest-read-failed", {
+                request: req.path,
+                path: assetManifestPath,
+                response: "crc"
+            }, err);
+        }
+        res.type("text/plain").send(String(crc32(data)));
+    });
+});
+
+app.get(["/assets/Assets_manifest.txt", "/assets/Assets_manifest"], (req, res) => {
+    sendAugmentedAssetManifest(req, res, "manifest");
+});
+
+app.get("/assets/Assets_manifest.txt.z", (req, res) => {
+    readAugmentedAssetManifest((err, data) => {
+        if (err) {
+            return sendAssetReadFailure(res, "asset-manifest-read-failed", {
+                request: req.path,
+                path: assetManifestPath,
+                response: "z"
+            }, err);
+        }
+        const compressed = encodeFreeRealmsZ(data);
+        logAssetDiagnostic("INFO", "asset-manifest-served", {
+            request: req.path,
+            response: "z",
+            compression: "freerealms-z",
+            size: data.length,
+            compressedSize: compressed.length,
+            crc: crc32(data)
+        });
+        res.type("application/octet-stream").send(compressed);
+    });
+});
+
+app.get(["/assets/manifest.txt", "/assets/manifest"], (req, res) => {
+    sendAugmentedAssetManifest(req, res, "manifest");
+});
+
+app.get(["/assets/manifest.txt.z", "/assets/manifest.z"], (req, res) => {
+    readAugmentedAssetManifest((err, data) => {
+        if (err) {
+            return sendAssetReadFailure(res, "asset-manifest-read-failed", {
+                request: req.path,
+                path: assetManifestPath,
+                response: "z"
+            }, err);
+        }
+        const compressed = encodeFreeRealmsZ(data);
+        logAssetDiagnostic("INFO", "asset-manifest-served", {
+            request: req.path,
+            response: "z",
+            compression: "freerealms-z",
+            size: data.length,
+            compressedSize: compressed.length,
+            crc: crc32(data)
+        });
+        res.type("application/octet-stream").send(compressed);
+    });
+});
+
+app.use("/client", express.static(clientRoot));
+
+app.get(/^\/client\/(.+)$/i, (req, res) => {
+    const fullPath = safeClientPath(req.params[0]);
+    if (!fullPath) {
+        logAssetDiagnostic("WARN", "client-file-path-rejected", {
+            request: req.path,
+            asset: req.params[0],
+            response: "file"
+        });
+        return res.sendStatus(400);
+    }
+
+    if (!fs.existsSync(fullPath) || !fs.statSync(fullPath).isFile()) {
+        logAssetDiagnostic("WARN", "client-file-missing", {
+            request: req.path,
+            asset: req.params[0],
+            path: fullPath,
+            response: "file"
+        });
+        return res.sendStatus(404);
+    }
+
+    sendClientFile(req, res, fullPath, {
+        request: req.path,
+        asset: req.params[0],
+        path: fullPath,
+        response: "file"
+    });
+});
+
+app.get(/^\/assets\/(.+\.z)$/i, (req, res) => {
+    const requested = req.params[0].replace(/\.z$/i, "");
+    const fullPath = safeClientPath(requested);
+    if (!fullPath) {
+        logAssetDiagnostic("WARN", "asset-path-rejected", {
+            request: req.path,
+            asset: requested,
+            response: "z"
+        });
+        return res.sendStatus(400);
+    }
+
+    if (!fs.existsSync(fullPath) || !fs.statSync(fullPath).isFile()) {
+        const packed = resolvePackedAsset(requested);
+        if (packed) {
+            return sendPackedAsset(res, packed, {
+                request: req.path,
+                asset: requested,
+                path: fullPath,
+                response: "z"
+            }, true);
+        }
+
+        const packedCompressed = resolvePackedAsset(req.params[0]);
+        if (packedCompressed) {
+            return sendPackedAsset(res, packedCompressed, {
+                request: req.path,
+                asset: requested,
+                path: fullPath,
+                response: "z",
+                packedResponse: "precompressed"
+            }, false);
+        }
+
+        const fallbackPacked = resolveMissingAssetFallback(requested);
+        if (fallbackPacked) {
+            return sendPackedAsset(res, fallbackPacked, {
+                request: req.path,
+                asset: requested,
+                path: fullPath,
+                response: "z",
+                fallbackSource: fallbackPacked.fallbackSource,
+                fallbackReason: fallbackPacked.fallbackReason
+            }, true);
+        }
+
+        logAssetDiagnostic("WARN", "asset-missing", {
+            request: req.path,
+            asset: requested,
+            path: fullPath,
+            response: "z"
+        });
+        return res.sendStatus(404);
+    }
+
+    sendDeflatedClientFile(res, fullPath, {
+        request: req.path,
+        asset: requested,
+        path: fullPath,
+        response: "z"
+    });
+});
+
+app.use("/assets", express.static(clientRoot));
+
+app.get(/^\/assets\/(.+)$/i, (req, res) => {
+    const fullPath = safeClientPath(req.params[0]);
+    if (!fullPath) {
+        logAssetDiagnostic("WARN", "asset-path-rejected", {
+            request: req.path,
+            asset: req.params[0],
+            response: "file"
+        });
+        return res.sendStatus(400);
+    }
+
+    if (!fs.existsSync(fullPath) || !fs.statSync(fullPath).isFile()) {
+        const packed = resolvePackedAsset(req.params[0]);
+        if (packed) {
+            return sendPackedAsset(res, packed, {
+                request: req.path,
+                asset: req.params[0],
+                path: fullPath,
+                response: "file"
+            }, false);
+        }
+
+        const fallbackPacked = resolveMissingAssetFallback(req.params[0]);
+        if (fallbackPacked) {
+            return sendPackedAsset(res, fallbackPacked, {
+                request: req.path,
+                asset: req.params[0],
+                path: fullPath,
+                response: "file",
+                fallbackSource: fallbackPacked.fallbackSource,
+                fallbackReason: fallbackPacked.fallbackReason
+            }, false);
+        }
+
+        logAssetDiagnostic("WARN", "asset-missing", {
+            request: req.path,
+            asset: req.params[0],
+            path: fullPath,
+            response: "file"
+        });
+        return res.sendStatus(404);
+    }
+
+    sendClientFile(req, res, fullPath, {
+        request: req.path,
+        asset: req.params[0],
+        path: fullPath,
+        response: "file"
+    });
+});
+
+registerTcgRoutes(app);
+app.use("/tcg", express.static(tcgRoot));
+
+async function sendLocalLauncherLogin(username, password, res, reason) {
+    const user = await new Promise((resolve) => {
+        db.get("SELECT * FROM Users WHERE lower(Username) = lower(?)", [username], (err, row) => {
+            if (err) {
+                console.error("Local DB query error:", err);
+                resolve(null);
+            } else {
+                resolve(row);
+            }
+        });
+    });
+
+    if (!user) {
+        logAssetDiagnostic("WARN", "local-login-failed-user-not-found", { username, reason });
+        return res.status(401).json({ error: "invalid username or password" });
+    }
+
+    let isValid = false;
+    if (user.Password === password) {
+        isValid = true;
+    } else if (user.Password && user.Password.startsWith("$2")) {
+        try {
+            isValid = bcrypt.compareSync(password, user.Password);
+        } catch (err) {
+            console.error("Bcrypt verification failed:", err);
+        }
+    }
+
+    if (!isValid) {
+        logAssetDiagnostic("WARN", "local-login-failed-invalid-password", { username, reason });
+        return res.status(401).json({ error: "invalid username or password" });
+    }
+
+    const sessionId = crypto.randomBytes(16).toString("hex");
+    const synced = await syncLocalLoginSession(username, sessionId);
+    if (!synced) {
+        return res.status(500).json({ error: "failed to sync session to database" });
+    }
+
+    const launchArguments = `inifile=ClientConfig.ini AssetDelivery:DirectEnabled=True AssetDelivery:IndirectEnabled=True AssetDelivery:IndirectServerAddress=${publicBaseUrl}/assets AssetDelivery:TcgServerAddress=${tcgBaseUrl}/tcg Tcg.ActivityId=7 Scg.ActivityId=7 tcg_ignore_ticket=1`;
+
+    logAssetDiagnostic("INFO", "asset-delivery-launch-args-local", {
+        userId: "local",
+        usernameProvided: true,
+        sessionId: "present",
+        direct: "True",
+        indirect: "True",
+        assets: `${publicBaseUrl}/assets`,
+        tcg: `${tcgBaseUrl}/tcg`,
+        reason
+    });
+
+    return res.json({
+        SessionId: sessionId,
+        LaunchArguments: launchArguments
+    });
+}
+
+app.post("/login", async (req, res) => {
+    const { username, password } = req.body;
+
+    if (!username || !password) {
+        return res.status(400).json({ error: "missing credentials" });
+    }
+
+    let upstream;
+    let responseText;
+    let fallbackToLocal = false;
+    try {
+        upstream = await fetch(remoteLoginUrl, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ username, password })
+        });
+        responseText = await upstream.text();
+        if (!upstream.ok) {
+            fallbackToLocal = true;
+        }
+    } catch (err) {
+        logAssetDiagnostic("ERROR", "remote-login-unreachable-falling-back", {
+            usernameProvided: true,
+            login: remoteLoginUrl,
+            error: err?.message ?? "fetch failed"
+        });
+        fallbackToLocal = true;
+    }
+
+    if (fallbackToLocal) {
+        return sendLocalLauncherLogin(username, password, res, "remote-unavailable-or-rejected");
+    }
+
+    let payload;
+    try {
+        payload = responseText ? JSON.parse(responseText) : {};
+    } catch (err) {
+        logAssetDiagnostic("ERROR", "remote-login-invalid-json", {
+            usernameProvided: true,
+            login: remoteLoginUrl,
+            error: err?.message ?? "invalid json"
+        });
+        return sendLocalLauncherLogin(username, password, res, "remote-invalid-json");
+    }
+
+    const sessionId = payload.sessionId ?? payload.SessionId;
+    if (!sessionId) {
+        logAssetDiagnostic("ERROR", "remote-login-missing-session", {
+            usernameProvided: true,
+            login: remoteLoginUrl,
+            keys: Object.keys(payload).join(",")
+        });
+        return sendLocalLauncherLogin(username, password, res, "remote-missing-session");
+    }
+
+    const launchArguments = `inifile=ClientConfig.ini AssetDelivery:DirectEnabled=True AssetDelivery:IndirectEnabled=True AssetDelivery:IndirectServerAddress=${publicBaseUrl}/assets AssetDelivery:TcgServerAddress=${tcgBaseUrl}/tcg Tcg.ActivityId=7 Scg.ActivityId=7 tcg_ignore_ticket=1`;
+    await syncLocalLoginSession(username, sessionId);
+
+    delete payload.sessionId;
+    delete payload.launchArguments;
+    payload.SessionId = sessionId;
+    payload.LaunchArguments = launchArguments;
+
+    logAssetDiagnostic("INFO", "asset-delivery-launch-args", {
+        userId: "remote",
+        usernameProvided: true,
+        sessionId: "present",
+        direct: "True",
+        indirect: "True",
+        assets: `${publicBaseUrl}/assets`,
+        tcg: `${tcgBaseUrl}/tcg`,
+        login: remoteLoginUrl
+    });
+
+    return res.json(payload);
+});
+
+app.listen(port, () => {
+    console.log(`Auth server running at ${publicBaseUrl}`);
+    console.log(`Serving TCG assets from ${tcgRoot}`);
+});

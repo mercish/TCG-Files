@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerManifest version="1">
+  <Name>Kaine's Local Launcher</Name>
+  <Description>Welcome!</Description>
+  <LoginServer>72.68.27.46:20042</LoginServer>
+  <LoginApiUrl>https://raisingkaines.com/login</LoginApiUrl>
+  <RegisterUrl>https://raisingkaines.com/register</RegisterUrl>
+</ServerManifest>

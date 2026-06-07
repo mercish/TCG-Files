@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServerManifest version="1">
+  <Name>Kaine's Server</Name>
+  <Description>Welcome!</Description>
+
+  <LoginServer>72.68.27.46:20042</LoginServer>
+  <LoginApiUrl>http://127.0.0.1:3000/login</LoginApiUrl>
+  <RegisterUrl>http://127.0.0.1:3000/register</RegisterUrl>
+</ServerManifest>
